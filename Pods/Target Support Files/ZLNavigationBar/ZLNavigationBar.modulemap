@@ -1,0 +1,6 @@
+framework module ZLNavigationBar {
+  umbrella header "ZLNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

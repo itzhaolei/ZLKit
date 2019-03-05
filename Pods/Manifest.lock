@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MJRefresh (3.1.15.7)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - ZLHTTPSessionManager (0.0.1):
+    - AFNetworking (~> 3.2.1)
+  - ZLNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - MJRefresh (~> 3.1.15.3)
+  - SDCycleScrollView (~> 1.75)
+  - ZLHTTPSessionManager (~> 0.0.1)
+  - ZLNavigationBar (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - ZLHTTPSessionManager
+    - ZLNavigationBar
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  ZLHTTPSessionManager: 99fd4dcd0abff6bbae0e8faec91ee0c5bb23ec23
+  ZLNavigationBar: 0975a16f47cceb2e3a4b2c2d92f548f344e3e1ce
+
+PODFILE CHECKSUM: 70358fe518c78b27d013a12d8472e5e3b38b2be8
+
+COCOAPODS: 1.6.1

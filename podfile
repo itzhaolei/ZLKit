@@ -1,0 +1,15 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'ZLKitDemo' do
+  
+#三方库
+pod 'ZLHTTPSessionManager', '~> 0.0.1'
+pod 'ZLNavigationBar', '~> 0.1.0'
+pod 'MJRefresh', '~> 3.1.15.3'
+pod 'SDCycleScrollView', '~> 1.75'
+
+#平台
+
+
+end
