@@ -7,15 +7,16 @@
 //
 
 #import "ZLButton.h"
+#import "ZLTemplateManger.h"
 
 @implementation ZLButton
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        [self setTitleColor:templateManger.textBlackColor forState:UIControlStateNormal];
+        self.titleLabel.font = [UIFont boldSystemFontOfSize:templateManger.font];
+    }
+    return self;
 }
-*/
 
 @end

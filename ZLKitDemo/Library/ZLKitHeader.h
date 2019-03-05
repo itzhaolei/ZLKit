@@ -13,6 +13,8 @@
 #import "ZLTimerManager.h"
 #import "ZLTemplateManger.h"
 #import "ZLLabel.h"
+#import "ZLImageView.h"
+#import "ZLButton.h"
 
 #define ZLKitStart [ZLTimerManager shared];[ZLTemplateManger shared];
 
