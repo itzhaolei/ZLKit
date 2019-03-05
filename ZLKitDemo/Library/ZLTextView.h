@@ -1,5 +1,5 @@
 //
-//  ZLView.h
+//  ZLTextView.h
 //  ZLKitDemo
 //
 //  Created by 赵磊 on 2019/3/5.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ZLView : UIView
+@interface ZLTextView : UITextView
 
 @end
 

@@ -1,20 +1,18 @@
 //
-//  ZLLabel.m
+//  ZLTextField.m
 //  ZLKitDemo
 //
 //  Created by 赵磊 on 2019/3/5.
 //  Copyright © 2019 赵磊. All rights reserved.
 //
 
-#import "ZLLabel.h"
-#import "ZLTemplateManger.h"
+#import "ZLTextField.h"
 
-@implementation ZLLabel
+@implementation ZLTextField
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.font = [UIFont boldSystemFontOfSize:templateManger.font];
-        self.textColor = templateManger.textBlackColor;
+        
     }
     return self;
 }

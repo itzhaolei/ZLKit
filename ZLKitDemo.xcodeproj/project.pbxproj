@@ -17,7 +17,6 @@
 		44D6072E222E2047008F1811 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60720222E2045008F1811 /* ZLScrollView.m */; };
 		44D6072F222E2047008F1811 /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60722222E2045008F1811 /* ZLTableView.m */; };
 		44D60730222E2047008F1811 /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60724222E2045008F1811 /* ZLCollectionView.m */; };
-		44D60731222E2047008F1811 /* ZLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60725222E2046008F1811 /* ZLView.m */; };
 		44D60732222E2047008F1811 /* ZLImaginaryLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60726222E2046008F1811 /* ZLImaginaryLine.m */; };
 		44D60733222E2047008F1811 /* ZLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60727222E2046008F1811 /* ZLImageView.m */; };
 		44D60734222E2047008F1811 /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60728222E2046008F1811 /* ZLButton.m */; };
@@ -25,6 +24,12 @@
 		44D60736222E2047008F1811 /* ZLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6072D222E2047008F1811 /* ZLLabel.m */; };
 		44D6073B222E2068008F1811 /* ZLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60739222E2068008F1811 /* ZLColor.m */; };
 		44D6073C222E2068008F1811 /* ZLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6073A222E2068008F1811 /* ZLImage.m */; };
+		44D6073F222E2238008F1811 /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6073E222E2238008F1811 /* ZLTextField.m */; };
+		44D60742222E2250008F1811 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60741222E2250008F1811 /* ZLTextView.m */; };
+		44D60745222E22B2008F1811 /* ZLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60744222E22B2008F1811 /* ZLWebView.m */; };
+		44D60748222E24A8008F1811 /* UIView+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60747222E24A8008F1811 /* UIView+ZLCustom.m */; };
+		44D6074F222E29E3008F1811 /* ZLTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6074E222E29E3008F1811 /* ZLTimerManager.m */; };
+		44D60758222E2C5C008F1811 /* ZLTemplateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60757222E2C5C008F1811 /* ZLTemplateManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,19 +53,30 @@
 		44D60722222E2045008F1811 /* ZLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableView.m; sourceTree = "<group>"; };
 		44D60723222E2045008F1811 /* ZLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLabel.h; sourceTree = "<group>"; };
 		44D60724222E2045008F1811 /* ZLCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionView.m; sourceTree = "<group>"; };
-		44D60725222E2046008F1811 /* ZLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLView.m; sourceTree = "<group>"; };
 		44D60726222E2046008F1811 /* ZLImaginaryLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImaginaryLine.m; sourceTree = "<group>"; };
 		44D60727222E2046008F1811 /* ZLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImageView.m; sourceTree = "<group>"; };
 		44D60728222E2046008F1811 /* ZLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLButton.m; sourceTree = "<group>"; };
 		44D60729222E2046008F1811 /* ZLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLayer.h; sourceTree = "<group>"; };
 		44D6072A222E2046008F1811 /* ZLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLayer.m; sourceTree = "<group>"; };
-		44D6072B222E2047008F1811 /* ZLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLView.h; sourceTree = "<group>"; };
 		44D6072C222E2047008F1811 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
 		44D6072D222E2047008F1811 /* ZLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLabel.m; sourceTree = "<group>"; };
 		44D60737222E2067008F1811 /* ZLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLColor.h; sourceTree = "<group>"; };
 		44D60738222E2067008F1811 /* ZLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLImage.h; sourceTree = "<group>"; };
 		44D60739222E2068008F1811 /* ZLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLColor.m; sourceTree = "<group>"; };
 		44D6073A222E2068008F1811 /* ZLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImage.m; sourceTree = "<group>"; };
+		44D6073D222E2238008F1811 /* ZLTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTextField.h; sourceTree = "<group>"; };
+		44D6073E222E2238008F1811 /* ZLTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTextField.m; sourceTree = "<group>"; };
+		44D60740222E2250008F1811 /* ZLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTextView.h; sourceTree = "<group>"; };
+		44D60741222E2250008F1811 /* ZLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTextView.m; sourceTree = "<group>"; };
+		44D60743222E22B2008F1811 /* ZLWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLWebView.h; sourceTree = "<group>"; };
+		44D60744222E22B2008F1811 /* ZLWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLWebView.m; sourceTree = "<group>"; };
+		44D60746222E24A8008F1811 /* UIView+ZLCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLCustom.h"; sourceTree = "<group>"; };
+		44D60747222E24A8008F1811 /* UIView+ZLCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLCustom.m"; sourceTree = "<group>"; };
+		44D6074C222E28F8008F1811 /* ZLKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLKitHeader.h; sourceTree = "<group>"; };
+		44D6074D222E29E3008F1811 /* ZLTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTimerManager.h; sourceTree = "<group>"; };
+		44D6074E222E29E3008F1811 /* ZLTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTimerManager.m; sourceTree = "<group>"; };
+		44D60756222E2C5C008F1811 /* ZLTemplateManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTemplateManger.h; sourceTree = "<group>"; };
+		44D60757222E2C5C008F1811 /* ZLTemplateManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTemplateManger.m; sourceTree = "<group>"; };
 		B3890CE9A6401FFDAAA73A37 /* Pods-ZLKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ZLKitDemo/Pods-ZLKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F786AF2897AB4C5829E276C8 /* Pods-ZLKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZLKitDemo/Pods-ZLKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,14 +131,21 @@
 		44D606F6222E1C84008F1811 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				44D6072B222E2047008F1811 /* ZLView.h */,
-				44D60725222E2046008F1811 /* ZLView.m */,
+				44D6074C222E28F8008F1811 /* ZLKitHeader.h */,
+				44D60746222E24A8008F1811 /* UIView+ZLCustom.h */,
+				44D60747222E24A8008F1811 /* UIView+ZLCustom.m */,
 				44D60723222E2045008F1811 /* ZLLabel.h */,
 				44D6072D222E2047008F1811 /* ZLLabel.m */,
 				44D6071E222E2044008F1811 /* ZLImageView.h */,
 				44D60727222E2046008F1811 /* ZLImageView.m */,
 				44D6071D222E2044008F1811 /* ZLButton.h */,
 				44D60728222E2046008F1811 /* ZLButton.m */,
+				44D6073D222E2238008F1811 /* ZLTextField.h */,
+				44D6073E222E2238008F1811 /* ZLTextField.m */,
+				44D60740222E2250008F1811 /* ZLTextView.h */,
+				44D60741222E2250008F1811 /* ZLTextView.m */,
+				44D60743222E22B2008F1811 /* ZLWebView.h */,
+				44D60744222E22B2008F1811 /* ZLWebView.m */,
 				44D6072C222E2047008F1811 /* ZLScrollView.h */,
 				44D60720222E2045008F1811 /* ZLScrollView.m */,
 				44D60721222E2045008F1811 /* ZLTableView.h */,
@@ -137,6 +160,10 @@
 				44D6073A222E2068008F1811 /* ZLImage.m */,
 				44D60729222E2046008F1811 /* ZLLayer.h */,
 				44D6072A222E2046008F1811 /* ZLLayer.m */,
+				44D6074D222E29E3008F1811 /* ZLTimerManager.h */,
+				44D6074E222E29E3008F1811 /* ZLTimerManager.m */,
+				44D60756222E2C5C008F1811 /* ZLTemplateManger.h */,
+				44D60757222E2C5C008F1811 /* ZLTemplateManger.m */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -289,18 +316,23 @@
 			files = (
 				44D606E5222E1A3B008F1811 /* ViewController.m in Sources */,
 				44D6073C222E2068008F1811 /* ZLImage.m in Sources */,
+				44D60758222E2C5C008F1811 /* ZLTemplateManger.m in Sources */,
 				44D6072F222E2047008F1811 /* ZLTableView.m in Sources */,
 				44D60730222E2047008F1811 /* ZLCollectionView.m in Sources */,
 				44D60732222E2047008F1811 /* ZLImaginaryLine.m in Sources */,
 				44D6072E222E2047008F1811 /* ZLScrollView.m in Sources */,
-				44D60731222E2047008F1811 /* ZLView.m in Sources */,
 				44D60736222E2047008F1811 /* ZLLabel.m in Sources */,
 				44D606F0222E1A3D008F1811 /* main.m in Sources */,
 				44D60735222E2047008F1811 /* ZLLayer.m in Sources */,
+				44D6074F222E29E3008F1811 /* ZLTimerManager.m in Sources */,
 				44D60734222E2047008F1811 /* ZLButton.m in Sources */,
 				44D6073B222E2068008F1811 /* ZLColor.m in Sources */,
+				44D6073F222E2238008F1811 /* ZLTextField.m in Sources */,
+				44D60742222E2250008F1811 /* ZLTextView.m in Sources */,
 				44D606E2222E1A3B008F1811 /* AppDelegate.m in Sources */,
+				44D60748222E24A8008F1811 /* UIView+ZLCustom.m in Sources */,
 				44D60733222E2047008F1811 /* ZLImageView.m in Sources */,
+				44D60745222E22B2008F1811 /* ZLWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7G4UNBP52;
 				INFOPLIST_FILE = ZLKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7G4UNBP52;
 				INFOPLIST_FILE = ZLKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

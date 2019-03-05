@@ -1,14 +1,14 @@
 //
-//  ZLView.m
+//  ZLWebView.m
 //  ZLKitDemo
 //
 //  Created by 赵磊 on 2019/3/5.
 //  Copyright © 2019 赵磊. All rights reserved.
 //
 
-#import "ZLView.h"
+#import "ZLWebView.h"
 
-@implementation ZLView
+@implementation ZLWebView
 
 /*
 // Only override drawRect: if you perform custom drawing.
