@@ -16,7 +16,7 @@
 #import "ZLImageView.h"
 #import "ZLButton.h"
 
-#define ZLKitStart [ZLTimerManager shared];[ZLTemplateManger shared];
+#define ZLKitStart [ZLTemplateManger shared]
 
 ///屏幕的尺寸
 #define ZL_Screen_Size UIScreen.mainScreen.bounds.size

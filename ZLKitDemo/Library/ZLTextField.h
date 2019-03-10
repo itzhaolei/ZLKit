@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZLTextField : UITextField
 
+///确定按钮
+@property (nonatomic,weak,readonly) UIButton *doneButton;
+///确定
+@property (nonatomic,copy) void (^done)(NSString *text);
+
 @end
 
 NS_ASSUME_NONNULL_END

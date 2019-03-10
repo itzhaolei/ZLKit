@@ -33,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong,readonly) UIColor *textBlackColor;
 ///文字的颜色
 @property (nonatomic,strong,readonly) UIColor *textLightGrayColor;
-///文字的字号
+///文字的字号  默认：16号
 @property (nonatomic,unsafe_unretained,readonly) CGFloat font;
 ///大圆角
 @property (nonatomic,unsafe_unretained,readonly) CGFloat maxRadian;

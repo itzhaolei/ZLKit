@@ -6,8 +6,6 @@
 //  Copyright © 2019 赵磊. All rights reserved.
 //
 
-#define timerManager [ZLTimerManager shared]
-
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
