@@ -20,9 +20,7 @@
 		44D60732222E2047008F1811 /* ZLImaginaryLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60726222E2046008F1811 /* ZLImaginaryLine.m */; };
 		44D60733222E2047008F1811 /* ZLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60727222E2046008F1811 /* ZLImageView.m */; };
 		44D60734222E2047008F1811 /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60728222E2046008F1811 /* ZLButton.m */; };
-		44D60735222E2047008F1811 /* ZLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6072A222E2046008F1811 /* ZLLayer.m */; };
 		44D60736222E2047008F1811 /* ZLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6072D222E2047008F1811 /* ZLLabel.m */; };
-		44D6073B222E2068008F1811 /* ZLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60739222E2068008F1811 /* ZLColor.m */; };
 		44D6073C222E2068008F1811 /* ZLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6073A222E2068008F1811 /* ZLImage.m */; };
 		44D6073F222E2238008F1811 /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6073E222E2238008F1811 /* ZLTextField.m */; };
 		44D60742222E2250008F1811 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60741222E2250008F1811 /* ZLTextView.m */; };
@@ -30,6 +28,8 @@
 		44D60748222E24A8008F1811 /* UIView+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60747222E24A8008F1811 /* UIView+ZLCustom.m */; };
 		44D6074F222E29E3008F1811 /* ZLTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D6074E222E29E3008F1811 /* ZLTimerManager.m */; };
 		44D60758222E2C5C008F1811 /* ZLTemplateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D60757222E2C5C008F1811 /* ZLTemplateManger.m */; };
+		44F2207B2234DCBA00545922 /* UIColor+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F2207A2234DCBA00545922 /* UIColor+ZLCustom.m */; };
+		44F2207E2234E1BE00545922 /* NSString+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F2207D2234E1BE00545922 /* NSString+ZLCustom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,13 +56,9 @@
 		44D60726222E2046008F1811 /* ZLImaginaryLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImaginaryLine.m; sourceTree = "<group>"; };
 		44D60727222E2046008F1811 /* ZLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImageView.m; sourceTree = "<group>"; };
 		44D60728222E2046008F1811 /* ZLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLButton.m; sourceTree = "<group>"; };
-		44D60729222E2046008F1811 /* ZLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLayer.h; sourceTree = "<group>"; };
-		44D6072A222E2046008F1811 /* ZLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLayer.m; sourceTree = "<group>"; };
 		44D6072C222E2047008F1811 /* ZLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
 		44D6072D222E2047008F1811 /* ZLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLabel.m; sourceTree = "<group>"; };
-		44D60737222E2067008F1811 /* ZLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLColor.h; sourceTree = "<group>"; };
 		44D60738222E2067008F1811 /* ZLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLImage.h; sourceTree = "<group>"; };
-		44D60739222E2068008F1811 /* ZLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLColor.m; sourceTree = "<group>"; };
 		44D6073A222E2068008F1811 /* ZLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLImage.m; sourceTree = "<group>"; };
 		44D6073D222E2238008F1811 /* ZLTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTextField.h; sourceTree = "<group>"; };
 		44D6073E222E2238008F1811 /* ZLTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTextField.m; sourceTree = "<group>"; };
@@ -77,6 +73,10 @@
 		44D6074E222E29E3008F1811 /* ZLTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTimerManager.m; sourceTree = "<group>"; };
 		44D60756222E2C5C008F1811 /* ZLTemplateManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTemplateManger.h; sourceTree = "<group>"; };
 		44D60757222E2C5C008F1811 /* ZLTemplateManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTemplateManger.m; sourceTree = "<group>"; };
+		44F220792234DCBA00545922 /* UIColor+ZLCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZLCustom.h"; sourceTree = "<group>"; };
+		44F2207A2234DCBA00545922 /* UIColor+ZLCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZLCustom.m"; sourceTree = "<group>"; };
+		44F2207C2234E1BE00545922 /* NSString+ZLCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZLCustom.h"; sourceTree = "<group>"; };
+		44F2207D2234E1BE00545922 /* NSString+ZLCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLCustom.m"; sourceTree = "<group>"; };
 		B3890CE9A6401FFDAAA73A37 /* Pods-ZLKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ZLKitDemo/Pods-ZLKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F786AF2897AB4C5829E276C8 /* Pods-ZLKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZLKitDemo/Pods-ZLKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +134,10 @@
 				44D6074C222E28F8008F1811 /* ZLKitHeader.h */,
 				44D60746222E24A8008F1811 /* UIView+ZLCustom.h */,
 				44D60747222E24A8008F1811 /* UIView+ZLCustom.m */,
+				44F220792234DCBA00545922 /* UIColor+ZLCustom.h */,
+				44F2207A2234DCBA00545922 /* UIColor+ZLCustom.m */,
+				44F2207C2234E1BE00545922 /* NSString+ZLCustom.h */,
+				44F2207D2234E1BE00545922 /* NSString+ZLCustom.m */,
 				44D60723222E2045008F1811 /* ZLLabel.h */,
 				44D6072D222E2047008F1811 /* ZLLabel.m */,
 				44D6071E222E2044008F1811 /* ZLImageView.h */,
@@ -154,12 +158,8 @@
 				44D60724222E2045008F1811 /* ZLCollectionView.m */,
 				44D6071C222E2044008F1811 /* ZLImaginaryLine.h */,
 				44D60726222E2046008F1811 /* ZLImaginaryLine.m */,
-				44D60737222E2067008F1811 /* ZLColor.h */,
-				44D60739222E2068008F1811 /* ZLColor.m */,
 				44D60738222E2067008F1811 /* ZLImage.h */,
 				44D6073A222E2068008F1811 /* ZLImage.m */,
-				44D60729222E2046008F1811 /* ZLLayer.h */,
-				44D6072A222E2046008F1811 /* ZLLayer.m */,
 				44D6074D222E29E3008F1811 /* ZLTimerManager.h */,
 				44D6074E222E29E3008F1811 /* ZLTimerManager.m */,
 				44D60756222E2C5C008F1811 /* ZLTemplateManger.h */,
@@ -320,19 +320,19 @@
 				44D6072F222E2047008F1811 /* ZLTableView.m in Sources */,
 				44D60730222E2047008F1811 /* ZLCollectionView.m in Sources */,
 				44D60732222E2047008F1811 /* ZLImaginaryLine.m in Sources */,
+				44F2207E2234E1BE00545922 /* NSString+ZLCustom.m in Sources */,
 				44D6072E222E2047008F1811 /* ZLScrollView.m in Sources */,
 				44D60736222E2047008F1811 /* ZLLabel.m in Sources */,
 				44D606F0222E1A3D008F1811 /* main.m in Sources */,
-				44D60735222E2047008F1811 /* ZLLayer.m in Sources */,
 				44D6074F222E29E3008F1811 /* ZLTimerManager.m in Sources */,
 				44D60734222E2047008F1811 /* ZLButton.m in Sources */,
-				44D6073B222E2068008F1811 /* ZLColor.m in Sources */,
 				44D6073F222E2238008F1811 /* ZLTextField.m in Sources */,
 				44D60742222E2250008F1811 /* ZLTextView.m in Sources */,
 				44D606E2222E1A3B008F1811 /* AppDelegate.m in Sources */,
 				44D60748222E24A8008F1811 /* UIView+ZLCustom.m in Sources */,
 				44D60733222E2047008F1811 /* ZLImageView.m in Sources */,
 				44D60745222E22B2008F1811 /* ZLWebView.m in Sources */,
+				44F2207B2234DCBA00545922 /* UIColor+ZLCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
