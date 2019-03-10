@@ -10,11 +10,21 @@
 #define ZLKitHeader_h
 
 #import "UIView+ZLCustom.h"
+#import "UIColor+ZLCustom.h"
+#import "NSString+ZLCustom.h"
+
 #import "ZLTimerManager.h"
 #import "ZLTemplateManger.h"
 #import "ZLLabel.h"
 #import "ZLImageView.h"
 #import "ZLButton.h"
+#import "ZLTextField.h"
+#import "ZLTextView.h"
+#import "ZLWebView.h"
+#import "ZLScrollView.h"
+#import "ZLTableView.h"
+#import "ZLCollectionView.h"
+#import "ZLImage.h"
 
 #define ZLKitStart [ZLTemplateManger shared]
 
