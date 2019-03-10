@@ -26,13 +26,11 @@
 #import "ZLCollectionView.h"
 #import "ZLImage.h"
 
-#define ZLKitStart [ZLTemplateManger shared]
-
 ///屏幕的尺寸
 #define ZL_Screen_Size UIScreen.mainScreen.bounds.size
 ///弱引用本类对象
 #define ZL_Weak_Self(weakSelf) __weak typeof(self)weakSelf = self
-///弱引用本类对象
+///弱引用指定对象
 #define ZL_Weak_Object(object,weakObject) __weak typeof(object)weakObject = object
 ///齐刘海设备
 #define ZL_Discern_Bang_Device(isBangDevice) BOOL isBangDevice = NO;if (@available(iOS 11.0, *)) {isBangDevice = UIApplication.sharedApplication.delegate.window.safeAreaInsets.bottom;}
