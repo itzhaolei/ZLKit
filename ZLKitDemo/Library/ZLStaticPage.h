@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZLHTTPSessionManager.h"
+#import <ZLHTTPSessionManager/ZLHTTPSessionManager.h>
 
 @interface ZLStaticPage : UIView
 
