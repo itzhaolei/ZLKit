@@ -36,7 +36,4 @@
 ///事件按钮
 @property (nonatomic,weak) UIButton *button;
 
-///静态页的默认配置
-- (void)defaultConfigMessage:(NSInteger)errorState;
-
 @end

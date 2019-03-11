@@ -103,13 +103,7 @@
 - (void)updateValues {
     UIImage *image = [UIImage imageNamed:self.iconName];
     if (self.iconName) {
-        if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
-            NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-            NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@@%dx.png",self.iconName,(int)UIScreen.mainScreen.scale]];
-            self.iconImageView.image = [UIImage imageWithContentsOfFile:path];
-        }else {
-            self.iconImageView.image = [UIImage imageNamed:self.iconName];
-        }
+        self.iconImageView.image = [UIImage imageNamed:self.iconName];
     }
     if (self.title) {
         self.titleLabel.attributedText = self.title;
@@ -133,20 +127,6 @@
 - (void)pageClick {
     if (self.pageAction) {
         self.pageAction();
-    }
-}
-
-///静态页的默认配置
-- (void)defaultConfigMessage:(NSInteger)errorState {
-    if (errorState == 1) {//请求失败
-        self.iconName = @"ZLKit_加载出错";
-        self.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
-    }else if (errorState == 2) {//超时
-        self.iconName = @"ZLKit_网络超时";
-        self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
-    }else {//断网
-        self.iconName = @"ZLKit_网络出错";
-        self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络出错了~"];
     }
 }
 
