@@ -1,0 +1,16 @@
+PODS:
+  - ZLKit (3.0.4)
+
+DEPENDENCIES:
+  - ZLKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZLKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLKit: 58dd9aa44099d1a1b395667d3b35104473f8b06e
+
+PODFILE CHECKSUM: ce87c763c84c08bbca7e13df20643dca5b138bf8
+
+COCOAPODS: 1.6.1
