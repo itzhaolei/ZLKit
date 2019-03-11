@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 s.name             = 'ZLKit'
 
 #组件版本号
-s.version          = '3.0.4'
+s.version          = '3.0.5'
 
 #摘要
 s.summary          = '工具库、高效开发'
@@ -25,7 +25,7 @@ s.license          = 'MIT'
 s.author           = { 'Mr.Zhao' => 'itzhaolei@foxmail.com' }
 
 #仓库地址 SSH地址 tag指向了上面的 s.version
-s.source           = { :git => 'https://github.com/itzhaolei/ZLKit.git', :tag => s.version }
+s.source           = { :git => 'git@github.com:itzhaolei/ZLKit.git', :tag => s.version }
 
 #支持的系统版本号不小于哪个版本
 s.ios.deployment_target = '8.0'
@@ -41,6 +41,7 @@ s.source_files = 'ZLKit/Classes/**/*'
 # s.frameworks = 'UIKit'
 
 #依赖的第三方库
-# s.dependency 'AFNetworking', '~> 2.3'
+s.dependency "ZLHTTPSessionManager", "~> 0.0.1"
+s.dependency "ZLNavigationBar", "~> 0.1.0"
 
 end
