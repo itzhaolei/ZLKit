@@ -25,7 +25,7 @@ s.license          = 'MIT'
 s.author           = { 'Mr.Zhao' => 'itzhaolei@foxmail.com' }
 
 #仓库地址 SSH地址 tag指向了上面的 s.version
-s.source           = { :git => 'git@github.com:itzhaolei/ZLKit.git', :tag => s.version }
+s.source           = { :git => 'https://github.com/itzhaolei/ZLKit.git', :tag => s.version }
 
 #支持的系统版本号不小于哪个版本
 s.ios.deployment_target = '8.0'
