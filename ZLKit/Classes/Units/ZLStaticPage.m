@@ -103,7 +103,13 @@
 - (void)updateValues {
     UIImage *image = [UIImage imageNamed:self.iconName];
     if (self.iconName) {
-        self.iconImageView.image = [UIImage imageNamed:self.iconName];
+        if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
+            NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
+            NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"ZLKit.bundle/%@@%dx.png",self.iconName,(int)UIScreen.mainScreen.scale]];
+            self.iconImageView.image = [UIImage imageWithContentsOfFile:path];
+        }else {
+            self.iconImageView.image = [UIImage imageNamed:self.iconName];
+        }
     }
     if (self.title) {
         self.titleLabel.attributedText = self.title;
@@ -127,6 +133,21 @@
 - (void)pageClick {
     if (self.pageAction) {
         self.pageAction();
+    }
+}
+- (void)showDefaultStaticPageMessage:(ZLStaticPageMessageType)messageType {
+    if (errorState == ZLHttpErrorStateServerFailure) {//请求失败
+        self.staticPage.iconName = @"ZLKit_ServerFailure";
+        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
+    }else if (errorState == ZLHttpErrorStateTimeout) {//超时
+        self.staticPage.iconName = @"ZLKit_Timeout";
+        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
+    }else if (errorState == ZLHttpErrorStateTimeout) {//断网
+        self.staticPage.iconName = @"ZLKit_NoNetwork";
+        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络出错了~"];
+    }else {//
+        self.staticPage.iconName = @"ZLKit_NullData";
+        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"暂无相关内容哦~"];
     }
 }
 

@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+///请求失败状态
+typedef NS_ENUM (NSInteger , ZLStaticPageMessageType){
+    ///空数据
+    ZLStaticPageMessageTypeNullData = 0,
+    ///服务器挂掉、访问地址不存在
+    ZLStaticPageMessageTypeServerFailure ,
+    ///超时
+    ZLStaticPageMessageTypeTimeout ,
+    ///断网
+    ZLStaticPageMessageTypeNoNetwork
+};
+
 @interface ZLStaticPage : UIView
 
 ///提示语
@@ -35,5 +47,8 @@
 @property (nonatomic,weak) UILabel *titleLabel;
 ///事件按钮
 @property (nonatomic,weak) UIButton *button;
+
+///展示默认的信息
+- (void)showDefaultStaticPageMessage:(ZLStaticPageMessageType)messageType;
 
 @end
