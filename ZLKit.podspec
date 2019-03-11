@@ -33,9 +33,9 @@ s.ios.deployment_target = '8.0'
 #组件文件的存放位置
 s.source_files = 'ZLKit/Classes/**/*'
 
-s.resource_bundles = {
-'ZLKit' => ['ZLKit/Assets/**/*']
-}
+#s.resource_bundles = {
+#'ZLKit' => ['ZLKit/Assets/**/*']
+#}
 
 #依赖的系统库
 # s.frameworks = 'UIKit'
