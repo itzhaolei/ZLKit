@@ -136,18 +136,18 @@
     }
 }
 - (void)showDefaultStaticPageMessage:(ZLStaticPageMessageType)messageType {
-    if (errorState == ZLHttpErrorStateServerFailure) {//请求失败
-        self.staticPage.iconName = @"ZLKit_ServerFailure";
-        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
-    }else if (errorState == ZLHttpErrorStateTimeout) {//超时
-        self.staticPage.iconName = @"ZLKit_Timeout";
-        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
-    }else if (errorState == ZLHttpErrorStateTimeout) {//断网
-        self.staticPage.iconName = @"ZLKit_NoNetwork";
-        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络出错了~"];
+    if (messageType == ZLStaticPageMessageTypeServerFailure) {//请求失败
+        self.iconName = @"ZLKit_ServerFailure";
+        self.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
+    }else if (messageType == ZLStaticPageMessageTypeTimeout) {//超时
+        self.iconName = @"ZLKit_Timeout";
+        self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
+    }else if (messageType == ZLStaticPageMessageTypeNoNetwork) {//断网
+        self.iconName = @"ZLKit_NoNetwork";
+        self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络出错了~"];
     }else {//
-        self.staticPage.iconName = @"ZLKit_NullData";
-        self.staticPage.title = [[NSMutableAttributedString alloc] initWithString:@"暂无相关内容哦~"];
+        self.iconName = @"ZLKit_NullData";
+        self.title = [[NSMutableAttributedString alloc] initWithString:@"暂无相关内容哦~"];
     }
 }
 
