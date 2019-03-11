@@ -10,7 +10,6 @@
 		11077A73219548E0D4DC0859 /* Pods_ZLKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1921D4742DEA5BDF70611339 /* Pods_ZLKitDemo.framework */; };
 		447B6C9222362055007AE6B1 /* ZLErrorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B6C8F22362054007AE6B1 /* ZLErrorTextView.m */; };
 		447B6C9322362055007AE6B1 /* ZLStaticPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B6C9022362054007AE6B1 /* ZLStaticPage.m */; };
-		447B6C95223623BD007AE6B1 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 447B6C94223623BC007AE6B1 /* Assets.bundle */; };
 		44D606E2222E1A3B008F1811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D606E1222E1A3B008F1811 /* AppDelegate.m */; };
 		44D606E5222E1A3B008F1811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D606E4222E1A3B008F1811 /* ViewController.m */; };
 		44D606E8222E1A3B008F1811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D606E6222E1A3B008F1811 /* Main.storyboard */; };
@@ -41,7 +40,12 @@
 		447B6C8F22362054007AE6B1 /* ZLErrorTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLErrorTextView.m; sourceTree = "<group>"; };
 		447B6C9022362054007AE6B1 /* ZLStaticPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStaticPage.m; sourceTree = "<group>"; };
 		447B6C9122362055007AE6B1 /* ZLErrorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLErrorTextView.h; sourceTree = "<group>"; };
-		447B6C94223623BC007AE6B1 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		447B6C9622362EEE007AE6B1 /* ZLKit_网络出错@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_网络出错@3x.png"; sourceTree = "<group>"; };
+		447B6C9722362EEE007AE6B1 /* ZLKit_网络超时@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_网络超时@2x.png"; sourceTree = "<group>"; };
+		447B6C9822362EEF007AE6B1 /* ZLKit_加载出错@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_加载出错@3x.png"; sourceTree = "<group>"; };
+		447B6C9922362EEF007AE6B1 /* ZLKit_网络超时@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_网络超时@3x.png"; sourceTree = "<group>"; };
+		447B6C9A22362EEF007AE6B1 /* ZLKit_加载出错@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_加载出错@2x.png"; sourceTree = "<group>"; };
+		447B6C9B22362EEF007AE6B1 /* ZLKit_网络出错@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZLKit_网络出错@2x.png"; sourceTree = "<group>"; };
 		44D606DD222E1A3B008F1811 /* ZLKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D606E0222E1A3B008F1811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44D606E1222E1A3B008F1811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,7 +180,12 @@
 				44D6074E222E29E3008F1811 /* ZLTimerManager.m */,
 				44D60756222E2C5C008F1811 /* ZLTemplateManger.h */,
 				44D60757222E2C5C008F1811 /* ZLTemplateManger.m */,
-				447B6C94223623BC007AE6B1 /* Assets.bundle */,
+				447B6C9A22362EEF007AE6B1 /* ZLKit_加载出错@2x.png */,
+				447B6C9822362EEF007AE6B1 /* ZLKit_加载出错@3x.png */,
+				447B6C9722362EEE007AE6B1 /* ZLKit_网络超时@2x.png */,
+				447B6C9922362EEF007AE6B1 /* ZLKit_网络超时@3x.png */,
+				447B6C9B22362EEF007AE6B1 /* ZLKit_网络出错@2x.png */,
+				447B6C9622362EEE007AE6B1 /* ZLKit_网络出错@3x.png */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -257,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				447B6C95223623BD007AE6B1 /* Assets.bundle in Resources */,
 				44D606ED222E1A3D008F1811 /* LaunchScreen.storyboard in Resources */,
 				44D606EA222E1A3D008F1811 /* Assets.xcassets in Resources */,
 				44D606E8222E1A3B008F1811 /* Main.storyboard in Resources */,
