@@ -7,7 +7,6 @@
 //
 
 #import "ZLErrorTextView.h"
-#import "ZLKitHeader.h"
 
 @implementation ZLErrorTextView
 
@@ -16,7 +15,7 @@
     view = view ? view : UIApplication.sharedApplication.delegate.window;
     BOOL blockingOperation = NO;
     
-    CGFloat maxWidth = ZL_Screen_Size.width - 130.0;
+    CGFloat maxWidth = UIScreen.mainScreen.bounds.size.width - 130.0;
     CGSize size = [error boundingRectWithSize:CGSizeMake(maxWidth,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14.0]} context:nil].size;
     CGFloat width = (size.height > 18.0 ? maxWidth : size.width) + 30.0;
     CGFloat height = size.height + 20.0;
@@ -25,7 +24,7 @@
     if (blockingOperation) {
         frame = view.bounds;
     }else {
-        frame = CGRectMake((ZL_Screen_Size.width - width) / 2.0, (ZL_Screen_Size.height - height) / 2.0, width, height);
+        frame = CGRectMake((UIScreen.mainScreen.bounds.size.width - width) / 2.0, (UIScreen.mainScreen.bounds.size.height - height) / 2.0, width, height);
     }
     ZLErrorTextView *unitView = [[ZLErrorTextView alloc] initWithFrame:frame];
     [view addSubview:unitView];

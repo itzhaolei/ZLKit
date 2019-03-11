@@ -7,7 +7,7 @@
 //
 
 #import "ZLStaticPage.h"
-#import "ZLKitHeader.h"
+#import "ZLTemplateManger.h"
 
 @interface ZLStaticPage ()
 
@@ -106,7 +106,7 @@
         if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
             NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
             NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"/%@@%dx.png",self.iconName,(int)UIScreen.mainScreen.scale]];
-            self.iconImageView.image = [ZLImage imageWithContentsOfFile:path];
+            self.iconImageView.image = [UIImage imageWithContentsOfFile:path];
         }else {
             self.iconImageView.image = [UIImage imageNamed:self.iconName];
         }
@@ -114,9 +114,9 @@
     if (self.title) {
         self.titleLabel.attributedText = self.title;
     }
-    CGSize size = [self.title.string boundingRectWithSize:CGSizeMake(ZL_Screen_Size.width - 100.0,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:self.titleLabel.font} context:nil].size;
-    self.iconImageView.frame = CGRectMake((ZL_Screen_Size.width - image.size.width) / 2, self.imageTopInset, image.size.width, image.size.height);
-    self.titleLabel.frame = CGRectMake(50.0, CGRectGetMaxY(self.iconImageView.frame) + self.titleTopInset, ZL_Screen_Size.width - 100.0, size.height);
+    CGSize size = [self.title.string boundingRectWithSize:CGSizeMake(UIScreen.mainScreen.bounds.size.width - 100.0,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:self.titleLabel.font} context:nil].size;
+    self.iconImageView.frame = CGRectMake((UIScreen.mainScreen.bounds.size.width - image.size.width) / 2, self.imageTopInset, image.size.width, image.size.height);
+    self.titleLabel.frame = CGRectMake(50.0, CGRectGetMaxY(self.iconImageView.frame) + self.titleTopInset, UIScreen.mainScreen.bounds.size.width - 100.0, size.height);
     if (self.buttonTitle) {
         self.button.frame = CGRectMake(CGRectGetMinX(self.titleLabel.frame), CGRectGetMaxY(self.titleLabel.frame) + self.actionTopInset, CGRectGetWidth(self.titleLabel.frame), 25.0);
         [self.button setTitle:self.buttonTitle forState:UIControlStateNormal];
@@ -137,11 +137,11 @@
 }
 
 ///静态页的默认配置
-- (void)defaultConfigMessage:(NSInteger)errorState {
-    if (errorState == 1) {//请求失败
+- (void)defaultConfigMessage:(ZLHttpErrorState)errorState {
+    if (errorState == ZLHttpErrorStateServerFailure) {//请求失败
         self.iconName = @"ZLKit_加载出错";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
-    }else if (errorState == 2) {//超时
+    }else if (errorState == ZLHttpErrorStateTimeout) {//超时
         self.iconName = @"ZLKit_网络超时";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
     }else {//断网
