@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		11077A73219548E0D4DC0859 /* Pods_ZLKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1921D4742DEA5BDF70611339 /* Pods_ZLKitDemo.framework */; };
 		447B6C9222362055007AE6B1 /* ZLErrorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B6C8F22362054007AE6B1 /* ZLErrorTextView.m */; };
-		447B6C9322362055007AE6B1 /* ZLStaticPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 447B6C9022362054007AE6B1 /* ZLStaticPage.m */; };
 		44D606E2222E1A3B008F1811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D606E1222E1A3B008F1811 /* AppDelegate.m */; };
 		44D606E5222E1A3B008F1811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D606E4222E1A3B008F1811 /* ViewController.m */; };
 		44D606E8222E1A3B008F1811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D606E6222E1A3B008F1811 /* Main.storyboard */; };
@@ -36,9 +35,7 @@
 
 /* Begin PBXFileReference section */
 		1921D4742DEA5BDF70611339 /* Pods_ZLKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		447B6C8E22362054007AE6B1 /* ZLStaticPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLStaticPage.h; sourceTree = "<group>"; };
 		447B6C8F22362054007AE6B1 /* ZLErrorTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLErrorTextView.m; sourceTree = "<group>"; };
-		447B6C9022362054007AE6B1 /* ZLStaticPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLStaticPage.m; sourceTree = "<group>"; };
 		447B6C9122362055007AE6B1 /* ZLErrorTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLErrorTextView.h; sourceTree = "<group>"; };
 		44D606DD222E1A3B008F1811 /* ZLKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D606E0222E1A3B008F1811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 				44F2207D2234E1BE00545922 /* NSString+ZLCustom.m */,
 				447B6C9122362055007AE6B1 /* ZLErrorTextView.h */,
 				447B6C8F22362054007AE6B1 /* ZLErrorTextView.m */,
-				447B6C8E22362054007AE6B1 /* ZLStaticPage.h */,
-				447B6C9022362054007AE6B1 /* ZLStaticPage.m */,
 				44D60723222E2045008F1811 /* ZLLabel.h */,
 				44D6072D222E2047008F1811 /* ZLLabel.m */,
 				44D6071E222E2044008F1811 /* ZLImageView.h */,
@@ -343,7 +338,6 @@
 				44D60748222E24A8008F1811 /* UIView+ZLCustom.m in Sources */,
 				44D60733222E2047008F1811 /* ZLImageView.m in Sources */,
 				44D60745222E22B2008F1811 /* ZLWebView.m in Sources */,
-				447B6C9322362055007AE6B1 /* ZLStaticPage.m in Sources */,
 				44F2207B2234DCBA00545922 /* UIColor+ZLCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,7 +481,7 @@
 			baseConfigurationReference = F786AF2897AB4C5829E276C8 /* Pods-ZLKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7G4UNBP52;
 				INFOPLIST_FILE = ZLKitDemo/Info.plist;
@@ -506,7 +500,7 @@
 			baseConfigurationReference = B3890CE9A6401FFDAAA73A37 /* Pods-ZLKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U7G4UNBP52;
 				INFOPLIST_FILE = ZLKitDemo/Info.plist;
