@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZLKitHeader.h"
+#import "ZLStaticPage.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    ZL_Navigation_Height(navigationHeight, isBangDevice);
+    ZLStaticPage *staticPage = [[ZLStaticPage alloc] initWithFrame:CGRectMake(0, navigationHeight, ZL_Screen_Size.width, ZL_Screen_Size.height - navigationHeight)];
+    [staticPage defaultConfigMessage:1];
+    [self.view addSubview:staticPage];
 }
 
 

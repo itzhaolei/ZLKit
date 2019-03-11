@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZLHTTPSessionManager/ZLHTTPSessionManager.h>
 
 @interface ZLStaticPage : UIView
 
@@ -38,6 +37,6 @@
 @property (nonatomic,weak) UIButton *button;
 
 ///静态页的默认配置
-- (void)defaultConfigMessage:(ZLHttpErrorState)errorState;
+- (void)defaultConfigMessage:(NSInteger)errorState;
 
 @end

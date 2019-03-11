@@ -26,6 +26,8 @@
 #import "ZLCollectionView.h"
 #import "ZLImage.h"
 
+#import "ZLErrorTextView.h"
+
 ///屏幕的尺寸
 #define ZL_Screen_Size UIScreen.mainScreen.bounds.size
 ///弱引用本类对象
