@@ -19,6 +19,7 @@
 #import "ZLImage.h"
 #import "ZLImageView.h"
 #import "ZLImaginaryLine.h"
+#import "ZLKeyboardMoneyField.h"
 #import "ZLLabel.h"
 #import "ZLScrollView.h"
 #import "ZLTableView.h"

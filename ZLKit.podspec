@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 s.name             = 'ZLKit'
 
 #组件版本号
-s.version          = '3.0.5'
+s.version          = '3.0.6'
 
 #摘要
 s.summary          = '工具库、高效开发'
@@ -33,9 +33,9 @@ s.ios.deployment_target = '8.0'
 #组件文件的存放位置
 s.source_files = 'ZLKit/Classes/**/*'
 
-#s.resource_bundles = {
-#'ZLKit' => ['ZLKit/Assets/**/*']
-#}
+s.resource_bundles = {
+'ZLKit' => ['ZLKit/Assets/**/*']
+}
 
 #依赖的系统库
 # s.frameworks = 'UIKit'

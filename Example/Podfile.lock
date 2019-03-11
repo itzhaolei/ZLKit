@@ -1,15 +1,44 @@
 PODS:
-  - ZLKit (3.0.4)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ZLHTTPSessionManager (0.0.1):
+    - AFNetworking (~> 3.2.1)
+  - ZLKit (3.0.6):
+    - ZLHTTPSessionManager (~> 0.0.1)
+    - ZLNavigationBar (~> 0.1.0)
+  - ZLNavigationBar (0.1.0)
 
 DEPENDENCIES:
   - ZLKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ZLHTTPSessionManager
+    - ZLNavigationBar
 
 EXTERNAL SOURCES:
   ZLKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZLKit: 58dd9aa44099d1a1b395667d3b35104473f8b06e
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ZLHTTPSessionManager: 99fd4dcd0abff6bbae0e8faec91ee0c5bb23ec23
+  ZLKit: afb83d8b7791b8b599ce39eda14ab2f9fccd1246
+  ZLNavigationBar: 0975a16f47cceb2e3a4b2c2d92f548f344e3e1ce
 
 PODFILE CHECKSUM: ce87c763c84c08bbca7e13df20643dca5b138bf8
 
