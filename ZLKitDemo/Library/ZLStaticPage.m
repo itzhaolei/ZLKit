@@ -137,11 +137,11 @@
 }
 
 ///静态页的默认配置
-- (void)defaultConfigMessage:(ZLHttpErrorState)errorState {
-    if (errorState == ZLHttpErrorStateServerFailure) {//请求失败
+- (void)defaultConfigMessage:(NSInteger)errorState {
+    if (errorState == 1) {//请求失败
         self.iconName = @"ZLKit_加载出错";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"加载出错，请重新加载~"];
-    }else if (errorState == ZLHttpErrorStateTimeout) {//超时
+    }else if (errorState == 2) {//超时
         self.iconName = @"ZLKit_网络超时";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络超时啦~"];
     }else {//断网
