@@ -34,7 +34,7 @@ s.ios.deployment_target = '8.0'
 s.source_files = 'ZLKit/Classes/**/*'
 
 s.resource_bundles = {
-'ZLNavigationBar' => ['ZLKit/Assets/**/*']
+'ZLKit' => ['ZLKit/Assets/**/*']
 }
 
 #依赖的系统库
