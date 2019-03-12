@@ -22,6 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,unsafe_unretained) NSInteger minNumber;
 ///循环
 @property (nonatomic,copy) void (^run)(NSInteger number);
+///将要开始
+@property (nonatomic,copy) void (^willStart)(void);
+///将要终止
+@property (nonatomic,copy) void (^willStop)(void);
 
 ///开启、重新开启一个定时器（内存地址会发生改变）
 - (void)startCountingDown;

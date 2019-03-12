@@ -29,6 +29,9 @@
         [self.timer invalidate];
         self.timer = nil;
     }
+    if (self.willStart) {
+        self.willStart();
+    }
     __weak typeof(self)weakSelf = self;
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:weakSelf selector:@selector(timerAction) userInfo:nil repeats:YES];
     [[NSRunLoop currentRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
@@ -38,6 +41,9 @@
 
 //关闭定时器
 - (void)stopCountingDown {
+    if (self.willStop) {
+        self.willStop();
+    }
     [self.timer invalidate];
     self.timer = nil;
     self.isOnCountingDown = NO;
