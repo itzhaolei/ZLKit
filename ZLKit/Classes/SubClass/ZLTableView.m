@@ -7,11 +7,16 @@
 //
 
 #import "ZLTableView.h"
+#import "ZLTemplateManger.h"
 
 @implementation ZLTableView
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
+- (instancetype)initWithFrame:(CGRect)frame style:(UITableViewStyle)style {
+    if (self = [super initWithFrame:frame style:style]) {
+        self.backgroundColor = templateManger.backgroundColor;
+        self.showsVerticalScrollIndicator = NO;
+        self.showsHorizontalScrollIndicator = NO;
+        self.separatorStyle = NO;
         //ios11 适配
         if (@available(iOS 11.0, *)) {
             self.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
