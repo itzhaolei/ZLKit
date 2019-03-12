@@ -11,6 +11,7 @@
 #define ZL_Discern_Bang_Device(isBangDevice) BOOL isBangDevice = NO;if (@available(iOS 11.0, *)) {isBangDevice = UIApplication.sharedApplication.delegate.window.safeAreaInsets.bottom;}
 
 #import "ZLKeyboardMoneyField.h"
+#import "ZLTemplateManger.h"
 
 @interface ZLKeyboardMoneyField ()
 
@@ -157,7 +158,7 @@
         self.didChangedText(self.text);
     }
     if (self.text.length > 0) {
-        self.doneButton.backgroundColor = UIColor.redColor;
+        self.doneButton.backgroundColor = templateManger.mainColor;
         self.doneButton.enabled = YES;
     }else {
         self.doneButton.backgroundColor = [UIColor colorWithRed:217.0 / 255.0 green:217.0 / 255.0 blue:222.0 / 255.0 alpha:1.0];
