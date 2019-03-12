@@ -7,6 +7,7 @@
 //
 
 #import "ZLViewController.h"
+#import <ZLKit/ZLStaticPage.h>
 
 @interface ZLViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    ZLStaticPage *view = [[ZLStaticPage alloc] initWithFrame:self.view.bounds];
+    [view showDefaultStaticPageMessage:1];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

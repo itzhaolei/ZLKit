@@ -69,9 +69,9 @@
 }
 - (UIImageView *)iconImageView {
     if (!_iconImageView) {
-        UIImageView *button = [[UIImageView alloc] initWithFrame:CGRectZero];
-        [self addSubview:button];
-        _iconImageView = button;
+        UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
+        [self addSubview:imageView];
+        _iconImageView = imageView;
     }
     return _iconImageView;
 }
@@ -101,16 +101,17 @@
 
 #pragma mark - Action
 - (void)updateValues {
-    UIImage *image = [UIImage imageNamed:self.iconName];
+    UIImage *image = nil;
     if (self.iconName) {
         if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
             NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
             NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"ZLKit.bundle/%@@%dx.png",self.iconName,(int)UIScreen.mainScreen.scale]];
-            self.iconImageView.image = [UIImage imageWithContentsOfFile:path];
+            image = [UIImage imageWithContentsOfFile:path];
         }else {
-            self.iconImageView.image = [UIImage imageNamed:self.iconName];
+            image = [UIImage imageNamed:self.iconName];
         }
     }
+    self.iconImageView.image = image;
     if (self.title) {
         self.titleLabel.attributedText = self.title;
     }
