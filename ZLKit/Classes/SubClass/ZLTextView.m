@@ -68,7 +68,7 @@
     if (!_doneButton) {
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(self.inputAccessoryView.frame.size.width - 60.0, 0, 60.0, self.inputAccessoryView.frame.size.height)];
         [button setTitle:@"完成" forState:UIControlStateNormal];
-        button.titleLabel.font = [UIFont systemFontOfSize:templateManger.font - 1];
+        button.titleLabel.font = [UIFont systemFontOfSize:15.0];
         [button setTitleColor:templateManger.textBlackColor forState:UIControlStateNormal];
         [button addTarget:self action:@selector(doneAction) forControlEvents:UIControlEventTouchUpInside];
         [self.inputAccessoryView addSubview:button];

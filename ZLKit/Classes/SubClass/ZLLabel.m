@@ -13,7 +13,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.font = [UIFont boldSystemFontOfSize:templateManger.font];
+        self.font = [UIFont boldSystemFontOfSize:16.0];
         self.textColor = templateManger.textBlackColor;
     }
     return self;

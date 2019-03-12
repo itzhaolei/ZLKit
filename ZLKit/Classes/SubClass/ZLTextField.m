@@ -29,6 +29,7 @@
     if (self = [super initWithFrame:frame]) {
         self.clearButtonMode = UITextFieldViewModeWhileEditing;
         self.delegate = self;
+        self.font = [UIFont systemFontOfSize:16.0];
         self.returnKeyType = UIReturnKeyDone;
     }
     return self;
@@ -52,7 +53,7 @@
     if (!_doneButton) {
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(self.inputAccessoryView.frame.size.width - 60.0, 0, 60.0, self.inputAccessoryView.frame.size.height)];
         [button setTitle:@"完成" forState:UIControlStateNormal];
-        button.titleLabel.font = [UIFont systemFontOfSize:templateManger.font - 1];
+        button.titleLabel.font = [UIFont systemFontOfSize:15.0];
         [button setTitleColor:templateManger.textBlackColor forState:UIControlStateNormal];
         [button addTarget:self action:@selector(doneAction) forControlEvents:UIControlEventTouchUpInside];
         [self.inputAccessoryView addSubview:button];
@@ -74,6 +75,14 @@
     [textField endEditing:NO];
     if (self.done) {
         self.done(textField.text);
+    }
+    return YES;
+}
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    if (![string isEqualToString:@""]) {
+        if (textField.text.length > self.maxLenght - 1) {
+            return NO;
+        }
     }
     return YES;
 }

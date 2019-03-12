@@ -14,7 +14,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self setTitleColor:templateManger.textBlackColor forState:UIControlStateNormal];
-        self.titleLabel.font = [UIFont boldSystemFontOfSize:templateManger.font];
+        self.titleLabel.font = [UIFont boldSystemFontOfSize:16.0];
     }
     return self;
 }

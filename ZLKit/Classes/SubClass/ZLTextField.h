@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak,readonly) UIButton *doneButton;
 ///确定
 @property (nonatomic,copy) void (^done)(NSString *text);
+///最大长度
+@property (nonatomic,unsafe_unretained) NSInteger maxLenght;
 
 @end
 
