@@ -15,6 +15,8 @@
 
 #import "ZLTimerManager.h"
 #import "ZLTemplateManger.h"
+
+#import "ZLImage.h"
 #import "ZLLabel.h"
 #import "ZLImageView.h"
 #import "ZLButton.h"
@@ -25,9 +27,9 @@
 #import "ZLScrollView.h"
 #import "ZLTableView.h"
 #import "ZLCollectionView.h"
-#import "ZLImage.h"
 
 #import "ZLErrorTextView.h"
+#import "ZLWarnView.h"
 
 ///屏幕的尺寸
 #define ZL_Screen_Size UIScreen.mainScreen.bounds.size
