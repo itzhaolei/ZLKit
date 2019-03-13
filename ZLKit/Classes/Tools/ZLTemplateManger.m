@@ -16,6 +16,7 @@
     UIColor *_backgroundColor;
     UIColor *_textBlackColor;
     UIColor *_textLightGrayColor;
+    UIColor *_textGrayColor;
     CGFloat _font;
     CGFloat _maxRadian;
     CGFloat _minRadian;
@@ -83,6 +84,12 @@
         _textLightGrayColor = [UIColor colorWithWhite:200 / 255.0 alpha:1.0];
     }
     return _textLightGrayColor;
+}
+- (UIColor *)textGrayColor {
+    if (!_textGrayColor) {
+        _textGrayColor = [UIColor colorWithWhite:153 / 255.0 alpha:1.0];
+    }
+    return _textGrayColor;
 }
 - (CGFloat)font {
     if (!_font) {

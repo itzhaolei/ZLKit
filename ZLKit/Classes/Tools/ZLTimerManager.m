@@ -50,6 +50,7 @@
     [self.timer invalidate];
     self.timer = nil;
     self.isOnCountingDown = NO;
+    NSLog(@"*****  定时器已释放  *****");
 }
 
 - (void)timerAction {
