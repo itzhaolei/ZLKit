@@ -11,6 +11,6 @@
 @interface ZLWarnView : UIView
 
 ///展示提示信息
-+ (void)showErrorMessageOnView:(UIView *)view Message:(NSString *)message;
++ (void)showErrorMessageOnView:(UIView *)view Servicer:(BOOL)servicer Message:(NSString *)message;
 
 @end

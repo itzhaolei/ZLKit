@@ -7,7 +7,6 @@
 //
 
 #import "ZLViewController.h"
-#import <ZLKit/ZLStaticPage.h>
 
 @interface ZLViewController ()
 
@@ -18,15 +17,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    ZLStaticPage *view = [[ZLStaticPage alloc] initWithFrame:self.view.bounds];
-    [view showDefaultStaticPageMessage:1];
-    [self.view addSubview:view];
+    self.view.backgroundColor = templateManger.randomColor;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"调用");
+    [ZLWarnView showErrorMessageOnView:nil Servicer:NO Message:@"错误信息"];
 }
 
 @end

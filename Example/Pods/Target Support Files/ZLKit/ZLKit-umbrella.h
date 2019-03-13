@@ -11,6 +11,7 @@
 #endif
 
 #import "ZLErrorTextView.h"
+#import "ZLWarnView.h"
 #import "NSString+ZLCustom.h"
 #import "UIColor+ZLCustom.h"
 #import "UIView+ZLCustom.h"

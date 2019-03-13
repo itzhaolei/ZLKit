@@ -48,4 +48,11 @@
 
 #define ZL_Not_Reachable_Message @"请求失败，请检查您的网络设置。"
 
+
+#ifdef DEBUG
+#define ZLLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
 #endif /* ZLKitHeader_h */
