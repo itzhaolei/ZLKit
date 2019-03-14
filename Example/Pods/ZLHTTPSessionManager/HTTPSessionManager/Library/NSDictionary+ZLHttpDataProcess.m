@@ -35,7 +35,7 @@
             [dictM setObject:objArrayM forKey:key];
             continue;
         }
-        if ([[NSString stringWithFormat:@"%@",value] integerValue]) {
+        if (![value isKindOfClass:[NSString class]]) {
             [dictM setObject:[NSString stringWithFormat:@"%@",value] forKey:key];
             continue;
         }

@@ -33,7 +33,7 @@
             [objArrayM addObject:objArrayM2];
             continue;
         }
-        if ([[NSString stringWithFormat:@"%@",value] integerValue]) {
+        if (![value isKindOfClass:[NSString class]]) {
             [objArrayM addObject:[NSString stringWithFormat:@"%@",value]];
             continue;
         }

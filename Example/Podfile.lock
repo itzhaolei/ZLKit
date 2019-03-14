@@ -14,10 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ZLHTTPSessionManager (0.0.1):
+  - ZLHTTPSessionManager (0.0.2):
     - AFNetworking (~> 3.2.1)
-  - ZLKit (3.1.6):
-    - ZLHTTPSessionManager (~> 0.0.1)
+  - ZLKit (3.2.1):
+    - ZLHTTPSessionManager (~> 0.0.2)
     - ZLNavigationBar (~> 0.1.0)
   - ZLNavigationBar (0.1.0)
 
@@ -36,8 +36,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ZLHTTPSessionManager: 99fd4dcd0abff6bbae0e8faec91ee0c5bb23ec23
-  ZLKit: 1b8145c13034b8c2d181604979834c7dc79ea68e
+  ZLHTTPSessionManager: f07aa427b5a1ea2aa511fff9155aeb70ef60e04a
+  ZLKit: f6c4e930b394da92a48a4259fcd01e3bfa24b51d
   ZLNavigationBar: 0975a16f47cceb2e3a4b2c2d92f548f344e3e1ce
 
 PODFILE CHECKSUM: ce87c763c84c08bbca7e13df20643dca5b138bf8
