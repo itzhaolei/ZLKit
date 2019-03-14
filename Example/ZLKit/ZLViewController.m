@@ -7,6 +7,7 @@
 //
 
 #import "ZLViewController.h"
+#import "ZLStaticPage.h"
 
 @interface ZLViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = templateManger.randomColor;
+    ZLStaticPage *staticPage = [[ZLStaticPage alloc] initWithFrame:self.view.bounds];
+    [staticPage showDefaultStaticPageMessage:nil];
+    [self.view addSubview:staticPage];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,6 +8,7 @@
 
 #import "ZLStaticPage.h"
 #import "ZLTemplateManger.h"
+#import "ZLImage.h"
 
 @interface ZLStaticPage ()
 
@@ -104,9 +105,7 @@
     UIImage *image = nil;
     if (self.iconName) {
         if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
-            NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-            NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"ZLKit.bundle/%@@%dx.png",self.iconName,(int)UIScreen.mainScreen.scale]];
-            image = [UIImage imageWithContentsOfFile:path];
+            image = [ZLImage imageInCurrentBundlePathNamed:self.iconName];
         }else {
             image = [UIImage imageNamed:self.iconName];
         }

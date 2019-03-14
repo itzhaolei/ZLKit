@@ -12,6 +12,7 @@
 
 #import "ZLKeyboardMoneyField.h"
 #import "ZLTemplateManger.h"
+#import "ZLImage.h"
 
 @interface ZLKeyboardMoneyField ()
 
@@ -64,14 +65,10 @@
                 button.enabled = NO;
                 self.doneButton = button;
             }else if (index == array.count - 2) {
-                NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-                NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"ZLKit.bundle/ZLKit_Delete@%dx.png",(int)UIScreen.mainScreen.scale]];
-                [button setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
+                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_Delete"] forState:UIControlStateNormal];
                 [button addTarget:self action:@selector(deleteAction:) forControlEvents:UIControlEventTouchUpInside];
             }else if (index == array.count - 3) {
-                NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-                NSString *path = [currentBundle.resourcePath stringByAppendingPathComponent:[NSString stringWithFormat:@"ZLKit.bundle/ZLKit_ Close Keyboard@%dx.png",(int)UIScreen.mainScreen.scale]];
-                [button setImage:[UIImage imageWithContentsOfFile:path] forState:UIControlStateNormal];
+                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_ Close Keyboard"] forState:UIControlStateNormal];
                 [button addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
             }else {
                 [button setTitle:array[index] forState:UIControlStateNormal];
