@@ -27,11 +27,11 @@
 }
 
 ///通过路径加载图片
-+ (ZLImage *)imagePathNamed:(NSString *)pathNamed {
++ (ZLImage *)imagePathNamed:(NSString *)pathNamed fixScale:(BOOL)fix {
     NSString *imageName = [NSString stringWithFormat:@"%@@%.0fx.png",pathNamed,UIScreen.mainScreen.scale];
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:nil];
     NSData *data = [[NSData alloc] initWithContentsOfFile:imagePath];
-    return (ZLImage *)[ZLImage imageWithData:data scale:UIScreen.mainScreen.scale];
+    return (ZLImage *)(fix ? [ZLImage imageWithData:data scale:UIScreen.mainScreen.scale] : [ZLImage imageWithData:data]);
 }
 
 ///加载当前bundle内的图片（如果你的图片不是放在主工程内，可以试试这个方式）
