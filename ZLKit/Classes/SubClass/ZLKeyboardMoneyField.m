@@ -65,10 +65,10 @@
                 button.enabled = NO;
                 self.doneButton = button;
             }else if (index == array.count - 2) {
-                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_Delete"] forState:UIControlStateNormal];
+                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_Delete" BundleName:@"ZLKit"] forState:UIControlStateNormal];
                 [button addTarget:self action:@selector(deleteAction:) forControlEvents:UIControlEventTouchUpInside];
             }else if (index == array.count - 3) {
-                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_ Close Keyboard"] forState:UIControlStateNormal];
+                [button setImage:[ZLImage imageInCurrentBundlePathNamed:@"ZLKit_ Close Keyboard" BundleName:@"ZLKit"] forState:UIControlStateNormal];
                 [button addTarget:self action:@selector(closeAction) forControlEvents:UIControlEventTouchUpInside];
             }else {
                 [button setTitle:array[index] forState:UIControlStateNormal];

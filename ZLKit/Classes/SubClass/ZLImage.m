@@ -35,9 +35,9 @@
 }
 
 ///加载当前bundle内的图片（如果你的图片不是放在主工程内，可以试试这个方式）
-+ (ZLImage *)imageInCurrentBundlePathNamed:(NSString *)pathNamed {
++ (ZLImage *)imageInCurrentBundlePathNamed:(NSString *)pathNamed BundleName:(NSString * _Nullable)bundleName {
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    NSString *bundleName = [[currentBundle.resourcePath componentsSeparatedByString:@"/"].lastObject componentsSeparatedByString:@"."].firstObject;
+    bundleName = bundleName ? bundleName : [[currentBundle.resourcePath componentsSeparatedByString:@"/"].lastObject componentsSeparatedByString:@"."].firstObject;
     NSString *imageName = [NSString stringWithFormat:@"%@.bundle/%@@%dx.png",bundleName,pathNamed,(int)UIScreen.mainScreen.scale];
     NSString *imagePath = [currentBundle.resourcePath stringByAppendingPathComponent:imageName];
     return (ZLImage *)[ZLImage imageWithContentsOfFile:imagePath];

@@ -105,7 +105,7 @@
     UIImage *image = nil;
     if (self.iconName) {
         if ([self.iconName rangeOfString:@"ZLKit_"].location != NSNotFound) {
-            image = [ZLImage imageInCurrentBundlePathNamed:self.iconName];
+            image = [ZLImage imageInCurrentBundlePathNamed:self.iconName BundleName:@"ZLKit"];
         }else {
             image = [UIImage imageNamed:self.iconName];
         }
@@ -145,7 +145,7 @@
     }else if (messageType == ZLStaticPageMessageTypeNoNetwork) {//断网
         self.iconName = @"ZLKit_NoNetwork";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"哎呀，网络出错了~"];
-    }else {//
+    }else {//无数据
         self.iconName = @"ZLKit_NullData";
         self.title = [[NSMutableAttributedString alloc] initWithString:@"暂无相关内容哦~"];
     }
