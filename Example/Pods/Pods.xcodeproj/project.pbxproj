@@ -44,7 +44,7 @@
 		40510869029929EAD18752AF81D64A87 /* ZLKit_NullData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DA87AB0FB6737671803E9B55830E58F /* ZLKit_NullData@2x.png */; };
 		41610D5D1D57B0ACE1F6FCFD31B84DC6 /* Pods-ZLKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0B434242F41EF92538E5D15E0BD82C /* Pods-ZLKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42F05A13B926D7DD882FFBB09F70E2A1 /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F480E4954ECDA988F29B6CD359390B26 /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44467EC5223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 44467EC3223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.h */; };
+		44467EC5223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 44467EC3223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44467EC6223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44467EC4223A3FCE0076D0C2 /* NSJSONSerialization+ZLCustom.m */; };
 		459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A9D90BBAB3058068B83D3324CC474 /* AFURLResponseSerialization.m */; };
 		463D5B5F1547AD237DDB5F93D27A59A6 /* ZLWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C697265D0231B528B94663DAAF53B52 /* ZLWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -99,7 +99,7 @@
 		8B12D57B9289872E53621D0BAACA1FD0 /* ZLNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE8398661967901A0573F4BA3361B1 /* ZLNavigationItem.m */; };
 		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D2F6F761E2DF63356710AB3012C430 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92AC5393E3DC51E7E742C6D631DE6F8B /* ZLImaginaryLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 702DA83B9702984A6791AF060C8F01AF /* ZLImaginaryLine.m */; };
-		9406DF137F8A02DFBC238651642FD803 /* ZLErrorTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLErrorTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9406DF137F8A02DFBC238651642FD803 /* ZLMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLMessageTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9555064BBE69DEC4A8E59ACCB2215A84 /* UIColor+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 00410C23D78E999DB97D529815FE838D /* UIColor+ZLCustom.m */; };
 		95E16B46E6F81B2D0FCEDD034ED7201B /* ZLKit_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1406B453A1D9981088DA2C0B1B8399A3 /* ZLKit_Delete@2x.png */; };
 		96C9D2F2F497630D9F23EDF3EB41CB49 /* ZLImaginaryLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7005A8162209AF0F8B8B327921C4053A /* ZLImaginaryLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,7 +133,7 @@
 		C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C58C50D0CB7218AEC59DB540946470 /* MobileCoreServices.framework */; };
 		C3448E00040A01A077F7E5964280FED6 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82D5F9F3AF64B68F6F70944A12B779 /* ZLTextView.m */; };
 		C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E6CB3C650FC809D86047F2A95D244C /* AFNetworking-dummy.m */; };
-		C6BB08DD4735F9296EE70E6C190ED2D5 /* ZLErrorTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D3BCE4F3D3B79596C0E50251103F29 /* ZLErrorTextView.m */; };
+		C6BB08DD4735F9296EE70E6C190ED2D5 /* ZLMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D3BCE4F3D3B79596C0E50251103F29 /* ZLMessageTextView.m */; };
 		C863ACBC07C3F5CD431D0924561F11A7 /* ZLKit_ Close Keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF86A81392C237EEBFEEF506FF8D61E /* ZLKit_ Close Keyboard@2x.png */; };
 		CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 022098E1A25A8E1ED40707F6AA251BA2 /* UIWebView+AFNetworking.m */; };
 		D01F061931B249A999A6514B63C703D5 /* ZLNavigationBackgroundBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C8272B978BC32B02A8D327DB98A7403B /* ZLNavigationBackgroundBar.m */; };
@@ -400,7 +400,7 @@
 		D9E6CB3C650FC809D86047F2A95D244C /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		DA8EC26D6C8915262B6B0AE65E621435 /* Pods-ZLKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DD17B2D2F455A4ECE7AA3BC3028DC52F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLErrorTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLErrorTextView.h; sourceTree = "<group>"; };
+		DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLMessageTextView.h; sourceTree = "<group>"; };
 		E02980044D79AC936BE0ECDDE5184AA9 /* ZLScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
 		E042C69302E696B5BBD4578C89423E2A /* ZLKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DA1724D57C35019A26ECDE841CD19F /* ZLNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBar.h; path = ZLNavigationBar/Classes/ZLNavigationBar.h; sourceTree = "<group>"; };
@@ -421,7 +421,7 @@
 		F56CF342730F6C6EA7155A78871B219C /* ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		F603639EDA85762A9A7FDA465BE3A15E /* NSArray+ZLHttpDataProcess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+ZLHttpDataProcess.h"; path = "HTTPSessionManager/Library/NSArray+ZLHttpDataProcess.h"; sourceTree = "<group>"; };
 		F731D6E8E4383C7D4B4425963A4E9EA6 /* NSDictionary+ZLHttpDataProcess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ZLHttpDataProcess.h"; path = "HTTPSessionManager/Library/NSDictionary+ZLHttpDataProcess.h"; sourceTree = "<group>"; };
-		F7D3BCE4F3D3B79596C0E50251103F29 /* ZLErrorTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLErrorTextView.m; sourceTree = "<group>"; };
+		F7D3BCE4F3D3B79596C0E50251103F29 /* ZLMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLMessageTextView.m; sourceTree = "<group>"; };
 		F88831BA10D8036F069F275F9BEBFC29 /* Pods-ZLKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9151E237E6AB09034F6ED0D52913278 /* ZLNavigationTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationTitleView.h; path = ZLNavigationBar/Classes/Units/ZLNavigationTitleView.h; sourceTree = "<group>"; };
 		FA82D5F9F3AF64B68F6F70944A12B779 /* ZLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTextView.m; sourceTree = "<group>"; };
@@ -936,8 +936,8 @@
 		F459F352F761026C57448681B05F8D01 /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
-				DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLErrorTextView.h */,
-				F7D3BCE4F3D3B79596C0E50251103F29 /* ZLErrorTextView.m */,
+				DE5CF2A0E1B6FD4F90FA5C37A4FF1723 /* ZLMessageTextView.h */,
+				F7D3BCE4F3D3B79596C0E50251103F29 /* ZLMessageTextView.m */,
 				BC9A5F0D0FE192AE630198CE075443EC /* ZLWarnView.h */,
 				A39EE7CC9B32CED3FDAA2058F2EE8DBF /* ZLWarnView.m */,
 			);
@@ -992,7 +992,7 @@
 				DF02A909266E1DBE02A1E33FB0319E7D /* UIView+ZLCustom.h in Headers */,
 				27CE136EA5ADDB7C91B370E07020B58C /* ZLButton.h in Headers */,
 				42F05A13B926D7DD882FFBB09F70E2A1 /* ZLCollectionView.h in Headers */,
-				9406DF137F8A02DFBC238651642FD803 /* ZLErrorTextView.h in Headers */,
+				9406DF137F8A02DFBC238651642FD803 /* ZLMessageTextView.h in Headers */,
 				2140E635F3D793ABC0E22E6C63ADE45A /* ZLImage.h in Headers */,
 				B509B3916AFFF935101A7746738F790E /* ZLImageView.h in Headers */,
 				96C9D2F2F497630D9F23EDF3EB41CB49 /* ZLImaginaryLine.h in Headers */,
@@ -1339,7 +1339,7 @@
 				480068BADEE3B2F815E829A02A437977 /* UIView+ZLCustom.m in Sources */,
 				1350EE6556AE7AC1899401513693A0DA /* ZLButton.m in Sources */,
 				8ADBF453B800711FDDC7D4B654ADD5A0 /* ZLCollectionView.m in Sources */,
-				C6BB08DD4735F9296EE70E6C190ED2D5 /* ZLErrorTextView.m in Sources */,
+				C6BB08DD4735F9296EE70E6C190ED2D5 /* ZLMessageTextView.m in Sources */,
 				2BCFB07116D75710FB2B28F7B9C25A7C /* ZLImage.m in Sources */,
 				35882A9129E8A1478F5A89435B261E90 /* ZLImageView.m in Sources */,
 				92AC5393E3DC51E7E742C6D631DE6F8B /* ZLImaginaryLine.m in Sources */,

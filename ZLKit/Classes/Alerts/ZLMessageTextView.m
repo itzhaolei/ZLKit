@@ -6,30 +6,37 @@
 //  Copyright © 2019 赵磊. All rights reserved.
 //
 
-#import "ZLErrorTextView.h"
+#import "ZLMessageTextView.h"
 
-@implementation ZLErrorTextView
+@implementation ZLMessageTextView
 
-///展示错误提示
-+ (void)showError:(NSString *)error BackgroundColor:(UIColor * _Nullable)backgroundColor SuperView:( UIView * _Nullable)view {
+/**展示提示信息
+ @param message 提示语
+ @param backgroundColor 背景色  默认黑色
+ @param blocking 是否阻断用户操作
+ @param view 父视图  默认window
+ */
++ (void)showMessage:(NSString *)message BackgroundColor:(UIColor * _Nullable)backgroundColor Blocking:(BOOL)blocking SuperView:( UIView * _Nullable)view {
     view = view ? view : UIApplication.sharedApplication.delegate.window;
-    BOOL blockingOperation = NO;
+    BOOL blockingOperation = blocking;
+    
+    ZLMessageTextView *unitView = [[ZLMessageTextView alloc] initWithFrame:CGRectZero];
+    [view addSubview:unitView];
     
     CGFloat maxWidth = UIScreen.mainScreen.bounds.size.width - 130.0;
-    CGSize size = [error boundingRectWithSize:CGSizeMake(maxWidth,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14.0]} context:nil].size;
+    CGSize size = [message boundingRectWithSize:CGSizeMake(maxWidth,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14.0]} context:nil].size;
     CGFloat width = (size.height > 18.0 ? maxWidth : size.width) + 30.0;
     CGFloat height = size.height + 20.0;
     
-    CGRect frame = CGRectZero;
     if (blockingOperation) {
-        frame = view.bounds;
+        unitView.frame = view.bounds;
     }else {
-        frame = CGRectMake((UIScreen.mainScreen.bounds.size.width - width) / 2.0, (UIScreen.mainScreen.bounds.size.height - height) / 2.0, width, height);
+        unitView.frame = CGRectMake((UIScreen.mainScreen.bounds.size.width - width) / 2.0, (UIScreen.mainScreen.bounds.size.height - height) / 2.0, width, height);
+        [view bringSubviewToFront:unitView];
     }
-    ZLErrorTextView *unitView = [[ZLErrorTextView alloc] initWithFrame:frame];
-    [view addSubview:unitView];
+    
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((unitView.frame.size.width - width) / 2.0, (unitView.frame.size.height - height) / 2.0, width, height)];
-    [button setTitle:error forState:UIControlStateNormal];
+    [button setTitle:message forState:UIControlStateNormal];
     [button setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:14.0];
     button.contentEdgeInsets = UIEdgeInsetsMake(0, 15.0, 0, 15.0);
