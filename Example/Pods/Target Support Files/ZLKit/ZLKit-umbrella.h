@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "ZLErrorTextView.h"
+#import "ZLMessageTextView.h"
 #import "ZLWarnView.h"
 #import "NSString+ZLCustom.h"
 #import "UIColor+ZLCustom.h"

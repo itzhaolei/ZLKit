@@ -29,7 +29,7 @@
 #import "ZLTableView.h"
 #import "ZLCollectionView.h"
 
-#import "ZLErrorTextView.h"
+#import "ZLMessageTextView.h"
 #import "ZLWarnView.h"
 
 ///屏幕的尺寸
