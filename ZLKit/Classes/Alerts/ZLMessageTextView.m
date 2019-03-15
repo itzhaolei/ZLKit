@@ -1,5 +1,5 @@
 //
-//  ZLErrorTextView.m
+//  ZLMessageTextView.m
 //  BasisProject
 //
 //  Created by zhaolei on 2019/1/1.
