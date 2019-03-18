@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 s.name             = 'ZLKit'
 
 #组件版本号
-s.version          = '3.2.3'
+s.version          = '3.2.4'
 
 #摘要
 s.summary          = '工具库、高效开发'
