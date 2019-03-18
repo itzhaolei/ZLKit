@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) void (^done)(NSString *text);
 ///最大长度
 @property (nonatomic,unsafe_unretained) NSInteger maxLenght;
+///仅支持数字和字母
+@property (nonatomic,unsafe_unretained) BOOL banPunctuation;
 
 @end
 
