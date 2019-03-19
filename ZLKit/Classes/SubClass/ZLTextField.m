@@ -80,7 +80,7 @@
 }
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     if (self.banPunctuation) {
-        if ([string rangeOfString:@"0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"].location != NSNotFound) {
+        if ([string rangeOfString:@"0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm"].location == NSNotFound) {
             return NO;
         }
     }
