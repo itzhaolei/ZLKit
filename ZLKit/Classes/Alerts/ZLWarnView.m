@@ -52,7 +52,7 @@
     }
     CGFloat width = [message boundingRectWithSize:CGSizeMake(MAXFLOAT,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[ZLWarnView shared].titleLabel.font} context:nil].size.width;
     BOOL doubleRow = width > [ZLWarnView shared].titleLabel.frame.size.width ? YES : NO;
-    UIImage *image = [ZLImage imageInCurrentBundlePathNamed:!servicer ? @"ZLKit_Warning" : @"ZLKit_Error" BundleName:@"ZLKit"];
+    UIImage *image = [ZLImage imageInCurrentBundlePathNamed:servicer ? @"ZLKit_Warning" : @"ZLKit_Error" BundleName:@"ZLKit"];
     [[ZLWarnView shared].iconButton setImage:image forState:UIControlStateNormal];
     if (doubleRow) {
         [ZLWarnView shared].iconButton.frame = CGRectMake([ZLWarnView shared].iconButton.frame.origin.x, [ZLWarnView shared].frame.size.height - 40.0, [ZLWarnView shared].iconButton.frame.size.width, 20.0);
