@@ -14,6 +14,8 @@
 
 ///请求的事件代理
 @property (nonatomic,strong) ZLHTTPRequestProcess *delegate;
+///解析类型
+@property (nonatomic,strong) NSSet *responseTypeSet;
 
 @end
 
@@ -44,6 +46,12 @@
 - (BOOL)online {
     return self.delegate.online;
 }
+- (NSSet *)responseTypeSet {
+    if (!_responseTypeSet) {
+        _responseTypeSet = [NSSet setWithObjects:@"text/html", @"text/json", @"text/javascript", @"application/json", @"text/plain", nil];
+    }
+    return _responseTypeSet;
+}
 
 /**AppDelegate配置项
  *@param debugPrefix 调试时的前缀
@@ -52,10 +60,10 @@
  *@param showLogs 打印日志
  *@param networkComplete 网络发生变化时的回调
  */
-+ (void)configDebugUrlPrefix:(NSString *)debugPrefix OnlineUrlPrefix:(NSString *)onlinePrefix Online:(BOOL)online ShowLogs:(BOOL)showLogs NetworkState:(void(^)(ZLHTTPSessionNetworkStatus state))networkComplete {
++ (void)configDebugUrlPrefix:(NSString *_Nullable)debugPrefix OnlineUrlPrefix:(NSString *_Nullable)onlinePrefix Online:(BOOL)online ShowLogs:(BOOL)showLogs NetworkState:(void(^_Nullable)(ZLHTTPSessionNetworkStatus state))networkComplete {
     ZLHTTPSessionManager *manager = [self shared];
     manager.requestTime = 30;
-    manager.delegate.requestManager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html", @"text/json", @"text/javascript", @"application/json", @"text/plain", nil];
+    manager.delegate.requestManager.responseSerializer.acceptableContentTypes = manager.responseTypeSet;
     manager.delegate.requestManager.requestSerializer = [AFHTTPRequestSerializer serializer];
     manager.delegate.requestManager.responseSerializer = [AFJSONResponseSerializer serializer];
     manager.delegate.debugPrefix = debugPrefix;
@@ -80,11 +88,13 @@
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-+ (void)GET:(NSString *)urlString Params:(NSDictionary *)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete {
++ (NSURLSessionDataTask *_Nullable)GET:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     ZLHTTPSessionManager *manager = [self shared];
-    [manager.delegate GET:urlString Params:dict AddHttpHeader:isAddHeader CachePolicy:cachePolicy Results:complete];
+    manager.delegate.requestManager.responseSerializer.acceptableContentTypes = manager.responseTypeSet;
+    return [manager.delegate GET:urlString Params:dict AddHttpHeader:isAddHeader CachePolicy:cachePolicy Results:complete];
 }
 
 /**POST请求 --  追加图片数据
@@ -93,11 +103,13 @@
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-+ (void)POST:(NSString *)urlString Params:(NSDictionary *)dict ModelArray:(NSArray <ZLHTTPFileModel *>*)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete {
++ (NSURLSessionDataTask *_Nullable)POST:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict ModelArray:(NSArray <ZLHTTPFileModel *>*_Nullable)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     ZLHTTPSessionManager *manager = [self shared];
-    [manager.delegate POST:urlString Params:dict ModelArray:modelArray AddHttpHeader:isAddHeader CachePolicy:cachePolicy Results:complete];
+    manager.delegate.requestManager.responseSerializer.acceptableContentTypes = manager.responseTypeSet;
+    return [manager.delegate POST:urlString Params:dict ModelArray:modelArray AddHttpHeader:isAddHeader CachePolicy:cachePolicy Results:complete];
 }
 
 

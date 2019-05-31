@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "ZLNavigationBackgroundBar.h"
 #import "ZLNavigationActionBar.h"
+#import "ZLNavigationTransparencyManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,weak,readonly) ZLNavigationBackgroundBar *backgroundBar;
 ///事件层
 @property (nonatomic,weak,readonly) ZLNavigationActionBar *actionBar;
+///渐变功能
+@property (nonatomic,strong,readonly) ZLNavigationTransparencyManager *transparencyManager;
 
 ///工厂方法
 + (instancetype)navigationBar;

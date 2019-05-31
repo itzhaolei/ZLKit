@@ -15,6 +15,8 @@
     ZLNavigationBackgroundBar *_backgroundBar;
     ///事件层
     ZLNavigationActionBar *_actionBar;
+    ///渐变功能
+    ZLNavigationTransparencyManager *_transparencyManager;
 }
 
 /**事件条的跟随动作
@@ -22,6 +24,8 @@
  *赋值含义：YES:自动跟随   NO:终止跟随
  */
 @property (nonatomic,unsafe_unretained,) BOOL isAllowActionBarAutomaticFollowBottom;
+///是否已经加载渐变功能
+@property (nonatomic,unsafe_unretained) BOOL didLoadTransparencyManager;
 
 @end
 
@@ -45,6 +49,11 @@
             && ![subView isKindOfClass:[ZLNavigationActionBar class]]) {
             [subView removeFromSuperview];
         }
+    }
+    if (self.didLoadTransparencyManager) {
+        self.backgroundBar.alpha = 1.0;
+        self.didLoadTransparencyManager = NO;
+        self.didLoadTransparencyManager = nil;
     }
 }
 
@@ -96,6 +105,16 @@
         _actionBar = view;
     }
     return _actionBar;
+}
+- (ZLNavigationTransparencyManager *)transparencyManager {
+    if (!_transparencyManager) {
+        ZLNavigationTransparencyManager *object = [[ZLNavigationTransparencyManager alloc] init];
+        self.backgroundBar.alpha = 0;
+        self.didLoadTransparencyManager = YES;
+        [object setValue:self.backgroundBar forKeyPath:@"view"];
+        _transparencyManager = object;
+    }
+    return _transparencyManager;
 }
 
 @end

@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, ZLHTTPSessionNetworkStatus) {
 @property (nonatomic,unsafe_unretained,readonly) BOOL online;
 
 ///获取实例
-+ (instancetype)shared;
++ (instancetype _Nonnull )shared;
 
 /**AppDelegate配置项
  *@param debugPrefix 调试时的前缀
@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, ZLHTTPSessionNetworkStatus) {
  *@param showLogs 打印日志
  *@param networkComplete 网络发生变化时的回调
  */
-+ (void)configDebugUrlPrefix:(NSString *)debugPrefix OnlineUrlPrefix:(NSString *)onlinePrefix Online:(BOOL)online ShowLogs:(BOOL)showLogs NetworkState:(void(^)(ZLHTTPSessionNetworkStatus state))networkComplete;
++ (void)configDebugUrlPrefix:(NSString *_Nullable)debugPrefix OnlineUrlPrefix:(NSString *_Nullable)onlinePrefix Online:(BOOL)online ShowLogs:(BOOL)showLogs NetworkState:(void(^_Nullable)(ZLHTTPSessionNetworkStatus state))networkComplete;
 
 /**GET请求
  *@param urlString 请求地址
@@ -60,8 +60,9 @@ typedef NS_ENUM(NSInteger, ZLHTTPSessionNetworkStatus) {
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-+ (void)GET:(NSString *)urlString Params:(NSDictionary *)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete;
++ (NSURLSessionDataTask *_Nullable)GET:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete;
 
 /**POST请求 --  追加图片数据
  *@param urlString 请求地址
@@ -69,7 +70,8 @@ typedef NS_ENUM(NSInteger, ZLHTTPSessionNetworkStatus) {
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-+ (void)POST:(NSString *)urlString Params:(NSDictionary *)dict ModelArray:(NSArray <ZLHTTPFileModel *>*)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete;
++ (NSURLSessionDataTask *_Nullable)POST:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict ModelArray:(NSArray <ZLHTTPFileModel *>*_Nullable)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete;
 
 @end

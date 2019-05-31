@@ -10,14 +10,15 @@
 #endif
 #endif
 
+#import "ZLNavigationBarHeader.h"
 #import "ZLNavigationActionBar.h"
 #import "ZLNavigationBackgroundBar.h"
+#import "ZLNavigationBar.h"
 #import "ZLNavigationBarPrivateHeader.h"
 #import "ZLNavigationItem.h"
 #import "ZLNavigationSearchBox.h"
 #import "ZLNavigationTitleView.h"
 #import "ZLNavigationTransparencyManager.h"
-#import "ZLNavigationBar.h"
 
 FOUNDATION_EXPORT double ZLNavigationBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZLNavigationBarVersionString[];

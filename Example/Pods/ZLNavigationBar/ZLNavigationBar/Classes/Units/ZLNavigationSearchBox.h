@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ZLNavigationSearchBox : UITextField
 
 ///点击事件（当该block被实现时，无法进行输入操作，只会调用该block）
-@property (nonatomic,copy) void (^click)(void);
+@property (nonatomic,copy,nullable) void (^click)(void);
 ///实时搜索（高频）
 @property (nonatomic,copy) void (^realtimeSearch)(NSString *keyString);
 ///确认搜索（点击键盘中的done时触发）

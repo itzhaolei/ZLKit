@@ -35,5 +35,8 @@
 ///导航栏高度
 #define ZL_Navigation_Height(navigationHeight) ZL_Discern_Bang_Device(isBangDevice);CGFloat navigationHeight = isBangDevice ? 84.0 : 64.0;
 
+//TODO:字符
+#define ZL_Type_Mismatch_ERROR @"\n\nERROR:类型不匹配\nZLNavigationBar.h中接收到的actionView属性值不符合要求，\n请查看该视图是否是UIScrollView类或是其派生类\n\n."
+
 
 #endif /* ZLNavigationBarPrivateHeader_h */

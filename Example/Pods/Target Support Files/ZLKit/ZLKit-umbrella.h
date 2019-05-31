@@ -12,6 +12,7 @@
 
 #import "ZLMessageTextView.h"
 #import "ZLWarnView.h"
+#import "NSJSONSerialization+ZLCustom.h"
 #import "NSString+ZLCustom.h"
 #import "UIColor+ZLCustom.h"
 #import "UIView+ZLCustom.h"

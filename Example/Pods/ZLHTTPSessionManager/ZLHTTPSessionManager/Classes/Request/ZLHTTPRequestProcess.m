@@ -18,8 +18,9 @@
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-- (void)GET:(NSString *)urlString Params:(NSDictionary *)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete {
+- (NSURLSessionDataTask *_Nullable)GET:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete {
     self.requestManager.requestSerializer.cachePolicy = cachePolicy;
     for (NSString *key in self.httpHeaderM.allKeys) {
         if (isAddHeader) {
@@ -30,7 +31,7 @@
     }
     urlString = [urlString rangeOfString:@"http"].location != NSNotFound ? urlString : [NSString stringWithFormat:@"%@%@",self.online ? self.onlinePrefix : self.debugPrefix,urlString];
     __weak typeof(self)weakSelf = self;
-    [self.requestManager GET:urlString parameters:dict progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    return [self.requestManager GET:urlString parameters:dict progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
         [ZLHTTPSucceedProcess disposeResponseWithObject:responseObject Manager:weakSelf URLString:urlString Params:dict Results:^(ZLHttpErrorState errorState, id object) {
             complete(errorState,object);
@@ -50,8 +51,9 @@
  *@param isAddHeader 是否追加head头，如需增加，请在外界对本类属性httpHeaderM进行配置
  *@param cachePolicy 缓存策略
  *@param complete 处理结果
+ *@return Task
  */
-- (void)POST:(NSString *)urlString Params:(NSDictionary *)dict ModelArray:(NSArray <ZLHTTPFileModel *>*)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^)(ZLHttpErrorState sessionErrorState, id responseObject))complete {
+- (NSURLSessionDataTask *_Nullable)POST:(NSString *_Nonnull)urlString Params:(NSDictionary *_Nullable)dict ModelArray:(NSArray <ZLHTTPFileModel *>*_Nullable)modelArray AddHttpHeader:(BOOL)isAddHeader CachePolicy:(NSURLRequestCachePolicy)cachePolicy Results:(void (^_Nullable)(ZLHttpErrorState sessionErrorState, id _Nullable responseObject))complete {
     self.requestManager.requestSerializer.cachePolicy = cachePolicy;
     for (NSString *key in self.httpHeaderM.allKeys) {
         if (isAddHeader) {
@@ -62,7 +64,7 @@
     }
     urlString = [urlString rangeOfString:@"http"].location != NSNotFound ? urlString : [NSString stringWithFormat:@"%@%@",self.online ? self.onlinePrefix : self.debugPrefix,urlString];
     __weak typeof(self)weakSelf = self;
-    [self.requestManager POST:urlString parameters:dict constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    return [self.requestManager POST:urlString parameters:dict constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         if (modelArray.count) {
             for (NSInteger a = 0; a < modelArray.count; a++) {
                 ZLHTTPFileModel *fileModel = modelArray[a];

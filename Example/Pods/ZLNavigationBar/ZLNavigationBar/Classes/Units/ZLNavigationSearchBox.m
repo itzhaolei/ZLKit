@@ -63,10 +63,10 @@
     _click = click;
     if (click) {
         if (!self.superViewTap) {
-            self.userInteractionEnabled = NO;
             self.superViewTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickAction)];
-            [self.superview addGestureRecognizer:self.superViewTap];
         }
+        self.userInteractionEnabled = NO;
+        [self.superview addGestureRecognizer:self.superViewTap];
     }else {
         self.userInteractionEnabled = YES;
         [self.superview removeGestureRecognizer:self.superViewTap];

@@ -10,10 +10,11 @@
 #endif
 #endif
 
+#import "ZLHTTPSessionHeader.h"
+#import "ZLHTTPFileModel.h"
 #import "NSArray+ZLHttpDataProcess.h"
 #import "NSDictionary+ZLHttpDataProcess.h"
 #import "ZLHTTPErrorProcess.h"
-#import "ZLHTTPFileModel.h"
 #import "ZLHTTPRequestProcess.h"
 #import "ZLHTTPSessionManager.h"
 #import "ZLHTTPSucceedProcess.h"

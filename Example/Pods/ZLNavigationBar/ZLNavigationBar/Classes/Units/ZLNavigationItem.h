@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,strong,readwrite) NSString *imageName;
 ///图片名 <用于加载目录下的图片，通过路径加载，格式为xx.png/xx.jpg/xx.jpeg>
 @property (nonatomic,strong,readwrite) NSString *imageFileName;
+
 ///点击事件
 @property (nonatomic,copy) void (^click)(void);
 
