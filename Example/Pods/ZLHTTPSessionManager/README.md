@@ -6,12 +6,12 @@
     - 日志打印
     - 筛除NULL
     - 检测网络状态
-    - 将ERROR进行分类	
+    - 将ERROR进行分类    
     - 转换基本数据类型为字符串
 ---
 ### 安装
 ```
-pod 'ZLHTTPSessionManager', '~> 0.0.1'
+pod 'ZLHTTPSessionManager'
 ```
 ---
 ### 使用
@@ -49,7 +49,7 @@ pod 'ZLHTTPSessionManager', '~> 0.0.1'
 
 ---
 ### 重大迭代跟踪
-`~> 0.0.1` 基本功能已完善
+`~> 1.0.0` 首次发布版本，功能已完善。
 
 ---
 ### FAQ

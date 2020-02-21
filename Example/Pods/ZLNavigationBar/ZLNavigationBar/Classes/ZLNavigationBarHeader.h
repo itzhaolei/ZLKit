@@ -8,5 +8,6 @@
 #ifndef ZLNavigationBarHeader_h
 #define ZLNavigationBarHeader_h
 
+#import "ZLNavigationBar/ZLNavigationBar.h"
 
 #endif /* ZLNavigationBarHeader_h */

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		125872666784FBE9CC93A3F9 /* Pods_ZLKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76FB18F6B982D17981A4CF0 /* Pods_ZLKit_Tests.framework */; };
+		403DF2C91BA6A07A54246C28 /* libPods-ZLKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F90671D0D2CB42478198584 /* libPods-ZLKit_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A044F0B1D7AB82A844818737 /* Pods_ZLKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE21F1449980A38EC3B9DFC /* Pods_ZLKit_Example.framework */; };
+		C4EEE324C8E4399C5D1DF635 /* libPods-ZLKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC32753305D227F3DA0E9954 /* libPods-ZLKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,10 +62,10 @@
 		6D0792480FE5C942D26791C3 /* Pods-ZLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D0853EDF1E7E60DFEEA5A1 /* ZLKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLKit.podspec; path = ../ZLKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F90671D0D2CB42478198584 /* libPods-ZLKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D77053D352B68C12D922C10 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BBE21F1449980A38EC3B9DFC /* Pods_ZLKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C76FB18F6B982D17981A4CF0 /* Pods_ZLKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC32753305D227F3DA0E9954 /* libPods-ZLKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F673B7B5484EF7621D2EA132 /* Pods-ZLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLKit_Tests/Pods-ZLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				A044F0B1D7AB82A844818737 /* Pods_ZLKit_Example.framework in Frameworks */,
+				403DF2C91BA6A07A54246C28 /* libPods-ZLKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				125872666784FBE9CC93A3F9 /* Pods_ZLKit_Tests.framework in Frameworks */,
+				C4EEE324C8E4399C5D1DF635 /* libPods-ZLKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				BBE21F1449980A38EC3B9DFC /* Pods_ZLKit_Example.framework */,
-				C76FB18F6B982D17981A4CF0 /* Pods_ZLKit_Tests.framework */,
+				7F90671D0D2CB42478198584 /* libPods-ZLKit_Example.a */,
+				CC32753305D227F3DA0E9954 /* libPods-ZLKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6B6D7BD3BC119E47E297D6DD /* [CP] Embed Pods Frameworks */,
+				4663CD0E65839AF880634662 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,32 +341,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B6D7BD3BC119E47E297D6DD /* [CP] Embed Pods Frameworks */ = {
+		4663CD0E65839AF880634662 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/ZLHTTPSessionManager/ZLHTTPSessionManager.framework",
-				"${BUILT_PRODUCTS_DIR}/ZLKit/ZLKit.framework",
-				"${BUILT_PRODUCTS_DIR}/ZLNavigationBar/ZLNavigationBar.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZLKit/ZLKit.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZLNavigationBar/ZLNavigationBar.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLHTTPSessionManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLNavigationBar.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

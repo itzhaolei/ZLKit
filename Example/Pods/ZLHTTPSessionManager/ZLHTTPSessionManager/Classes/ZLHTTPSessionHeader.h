@@ -8,6 +8,6 @@
 #ifndef ZLHTTPSessionHeader_h
 #define ZLHTTPSessionHeader_h
 
-#import "ZLHTTPSessionManager.h"
+#import "ZLHTTPSessionManager/ZLHTTPSessionManager.h"
 
 #endif /* ZLHTTPSessionHeader_h */
