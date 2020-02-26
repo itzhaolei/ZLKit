@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 s.name             = 'ZLKit'
 
 #组件版本号
-s.version          = '3.3.3'
+s.version          = '3.3.4'
 
 #摘要
 s.summary          = '工具库、高效开发'
@@ -42,6 +42,6 @@ s.resource_bundles = {
 
 #依赖的第三方库
 s.dependency "ZLHTTPSessionManager", "~> 1.0.1"
-s.dependency "ZLNavigationBar", "~> 1.0.1"
+s.dependency "ZLNavigationBar", "~> 1.0.2"
 
 end

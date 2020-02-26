@@ -1,6 +1,6 @@
 {
   "name": "ZLKit",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "summary": "工具库、高效开发",
   "description": "库内集成对系统控件的二次封装、对基础逻辑的处理、高效的宏定义等等；",
   "homepage": "https://github.com/itzhaolei/ZLKit",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/itzhaolei/ZLKit.git",
-    "tag": "3.3.3"
+    "tag": "3.3.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,7 +26,7 @@
       "~> 1.0.1"
     ],
     "ZLNavigationBar": [
-      "~> 1.0.1"
+      "~> 1.0.2"
     ]
   }
 }

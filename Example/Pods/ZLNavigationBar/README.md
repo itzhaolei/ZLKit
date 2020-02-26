@@ -13,5 +13,7 @@ pod 'ZLNavigationBar'
     - 重新```pod search ZLNavigationBar```
 ---
 ### 迭代跟踪
-- `~> 1.0.0` 将三方库从github迁移到gitee
+- `~> 1.0.0` 将三方库从github迁移到gitee；
+- `~> 1.0.1` 去除Bitcode的配置；
+- `~> 1.0.0` 修复无法在ios13前的版本使用的问题；
 
