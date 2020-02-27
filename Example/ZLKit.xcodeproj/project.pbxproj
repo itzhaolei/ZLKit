@@ -349,12 +349,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZLKit_Example/Pods-ZLKit_Example-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ZLKit/ZLKit.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ZLNavigationBar/ZLNavigationBar.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLKit.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZLNavigationBar.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

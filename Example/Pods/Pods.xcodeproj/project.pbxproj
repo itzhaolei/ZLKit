@@ -6,189 +6,85 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		5C5034840FC1CEBF1DFA2AE4E0EDE7C6 /* ZLHTTPSessionManager */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 830209CBB3FCDE3AB4F67D050A863D76 /* Build configuration list for PBXAggregateTarget "ZLHTTPSessionManager" */;
-			buildPhases = (
-			);
-			dependencies = (
-				88F2F1761B680C8686CDC293AB1AE35E /* PBXTargetDependency */,
-			);
-			name = ZLHTTPSessionManager;
-		};
-		A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 7D20B20CC80F075B37D65C4BC609E5B3 /* Build configuration list for PBXAggregateTarget "ZLNavigationBar" */;
-			buildPhases = (
-			);
-			dependencies = (
-				3E294479127FE2332551EF592B5E59D9 /* PBXTargetDependency */,
-			);
-			name = ZLNavigationBar;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		0343B86E9B9F5619970FCBD7370E033A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC7E6FA3139AA0776EA216A61CF8014 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 712AFB20DA34F838248567D409B53C79 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0A7DA069A72247627EC84D70E2850B8E /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0497218CB860FE584D737865929B6E12 /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A2D4383F6C5060987E9AE30FF067F9 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0CFE5F68CFEB8160D3520146CCE3064D /* ZLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93029ECCB72727251E7D65715DEAD14A /* ZLTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC707EAF5BB4F7839A93D18FBBDF7BD /* AFImageDownloader.m */; };
-		1102564C9CDAC18DF8D6DB20F6523E72 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3A13AFC91677255D8C5531EBB1BA3A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1231FE358BEA23BAC577841B85D1ABA3 /* ZLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D45612575A70282D0E18FC5D34707AD /* ZLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		141B25DFCDBAD343ABD5B52B5FB3EBAE /* NSJSONSerialization+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 750D79AC4B6AB96EB20CBAB3073DE97D /* NSJSONSerialization+ZLCustom.m */; };
-		150D182ED4BD8A712A779509F85FED91 /* ZLKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4719B61963125A8CF240A1A5BDAF10 /* ZLKit-dummy.m */; };
-		17783280B19730B82BA181806B4AF79A /* ZLImaginaryLine.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D03963EE189FEEE2304F10C0B5A2AB /* ZLImaginaryLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		181D258A6CCAB99AE08A018D2CE90E07 /* ZLKit_Warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8EEC8969215F466C732B0698B4F12E /* ZLKit_Warning@2x.png */; };
-		195223264AFE8CE068ED59C1F56D3418 /* UIColor+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E32731E46FF65A31366B7E28552C5172 /* UIColor+ZLCustom.m */; };
-		1AAD485835BC553FB3AE49900687D8F6 /* ZLImaginaryLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED1ED1664736A9D06585F20B158C /* ZLImaginaryLine.m */; };
-		1B4795FE2CB083DC658B3CF6585A3F3B /* ZLTemplateManger.h in Headers */ = {isa = PBXBuildFile; fileRef = FD393A4FBF1304DCBDC3703A6DF532E9 /* ZLTemplateManger.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DB283F0DD3436A554EF27C7C9F92214 /* ZLStaticPage.h in Headers */ = {isa = PBXBuildFile; fileRef = A60E18F4C4E36576FCED9A63235F4974 /* ZLStaticPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1EA1235398DAC98440B2EFBE43839FD1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5E2E84EBA913C7157774991DDE28A /* AFSecurityPolicy.m */; };
-		1F66F73B61BEA115076A9CF7DD463832 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1475AD17EE1DB33789B54FF7BC8F31 /* AFNetworkActivityIndicatorManager.m */; };
-		2B8EF244B7F5E7B7B333EFC8D3A85120 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FF4B87D3732DBE2979A7CDB0EB429 /* ZLScrollView.m */; };
-		2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 562341B61C0B4402A350C52B520E31D5 /* AFURLResponseSerialization.m */; };
-		304FB2F3CB19F5C44D812D90AA2F1121 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A566961B08A1B1BEA90F195815AC4B /* UIRefreshControl+AFNetworking.m */; };
-		337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6684390A511CBFAD90F6E10BA8F86624 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3801A443834985F278FE479B54319B4F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9014B6C53EBB1B721692CA9507293192 /* AFNetworkReachabilityManager.m */; };
-		399C5286E689244695A847FC4416AA2E /* ZLWarnView.h in Headers */ = {isa = PBXBuildFile; fileRef = E43ECF1FE0F55FA2276DC9467A00751D /* ZLWarnView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39FB6F418DFC3E5B7003A616B657F874 /* ZLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A6062F6AABF764E473740C148AE0D /* ZLImage.m */; };
-		40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FCEA51C0CB7210612184B23B5C155 /* UIImageView+AFNetworking.m */; };
-		418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 488489B87D663D93784083C6030C8214 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		485A6046A191E209D5F944F5B100E495 /* ZLKit_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FBC4F698EB780897C53ECD4EBEAF48 /* ZLKit_Delete@2x.png */; };
-		4D6C549F03F5AC3E00E51766F8E3703B /* ZLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C27BC08B43FC33F2B76012E9D13D9BD /* ZLImageView.m */; };
-		551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912F51F9FCC296AC59EBAF223B1012C /* UIActivityIndicatorView+AFNetworking.m */; };
-		5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5D2A02854FDAC8058C7E4DD091623B /* AFAutoPurgingImageCache.m */; };
-		563F9A4DF8A6412B6540EF8C3705BA99 /* NSString+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3576D736D2501A997E0B24297503EC /* NSString+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73D4DECAAB940C420BD378BFED1665 /* UIWebView+AFNetworking.m */; };
-		56C51A953B3EF1D47BE393FDF8EAEDF9 /* ZLKit_Delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DB1295E535E3622BCA92D0F3D36A8D /* ZLKit_Delete@3x.png */; };
-		5F3F7484EE2F5B0C09E3CDA731032B92 /* NSString+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = F00B7CEFDB3E86ADA415D124CC626475 /* NSString+ZLCustom.m */; };
-		5FF1B4EEDEE8BCA2E676E2548A412B02 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF90A06D942FE29C00D51A9EEB38307 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		605E6120C9105C57B698606F81E93AEA /* ZLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A1372E7CFA4F9083E7D05A0C05C76 /* ZLWebView.m */; };
-		62248811C111C17D3913026AFDE904E2 /* ZLStaticPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB318A1C808841EBAA1BF681F2C96D /* ZLStaticPage.m */; };
+		051219D8F301476F1AFE5B898A658311 /* UIColor+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 666E9DC2D439BDBA175D9BECB7CBF273 /* UIColor+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C5A573FCDF5315B0D6B976E9DC2E647 /* ZLStaticPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEB318A1C808841EBAA1BF681F2C96D /* ZLStaticPage.m */; };
+		18CF6F9C918E589590F7FA67DA1F3771 /* ZLKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4719B61963125A8CF240A1A5BDAF10 /* ZLKit-dummy.m */; };
+		1F3602B90E377893250FB2724FB77F69 /* ZLImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1652DD1E1396AFAE0393A0449E286EDA /* ZLImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20427D6447CB3FA6A8908F3515DA4886 /* ZLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D247EEA1E95541BAFD6547D2ED54EB27 /* ZLImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21439F8B15ACD7C744A7EE5E2375AE8D /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765AA5FCE583975C89FD854E3F4166B /* ZLTableView.m */; };
+		261AE6A8282F343AA5506C2820B3F894 /* ZLKit_Warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EFD2047DD9D17FC933D41B55E70601 /* ZLKit_Warning@3x.png */; };
+		29D5CFE2412182E92A1C5E4D8ADC73D5 /* ZLTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0541354EB7073BD72777922D7B93B8CE /* ZLTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A7A049DDA803EA7F9970DACB75602BA /* ZLStaticPage.h in Headers */ = {isa = PBXBuildFile; fileRef = A60E18F4C4E36576FCED9A63235F4974 /* ZLStaticPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33BCC8B9D701880AD14FB50FA635FD32 /* ZLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AEE46EDF1C508B1906ECAF6EE688C4 /* ZLButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37A31F1073CF928A8BC83C3B2344DA74 /* ZLMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F936A503D16BB65BBE5869213A89262 /* ZLMessageTextView.m */; };
+		3B6301347F7D819C1171C4E33B1A9D5B /* ZLMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BAEAE8EA37988E2541DD7A52C845AC /* ZLMessageTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DE4653BA582DCE1C76CB1AA0924F4B1 /* NSJSONSerialization+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = C3959BDD95E1B04BD6712DC51AAD99D5 /* NSJSONSerialization+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4053B67DB0A41AECC206CDCC77781A9A /* ZLTemplateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EF8DFE0BA02C5ADD11FFD5A8971B6 /* ZLTemplateManger.m */; };
+		4595C67340A5D6E24F5F7F72A5C74257 /* ZLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D45612575A70282D0E18FC5D34707AD /* ZLLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		471994CA03605F46D9BD60350319D8D4 /* ZLKit_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FBC4F698EB780897C53ECD4EBEAF48 /* ZLKit_Delete@2x.png */; };
+		4ED4918D9E145626613FB2F8D835C8B0 /* ZLWarnView.h in Headers */ = {isa = PBXBuildFile; fileRef = E43ECF1FE0F55FA2276DC9467A00751D /* ZLWarnView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5076FBDB101706671C16A041AAA3EF3B /* ZLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84019F8B0B01028EABF4B27D9D674036 /* ZLScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52375B944FAB5B16DCFF5B8E91911D62 /* ZLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AFF6FDBCB627F70C6848263EFED5A /* ZLLabel.m */; };
+		56DF0E220C3EB7449A3BE0E58B761947 /* ZLKit_NoNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE66E18333BA173861387B417A49E19 /* ZLKit_NoNetwork@2x.png */; };
+		575EFB4DC00B73F28B118F83B9153A91 /* ZLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C27BC08B43FC33F2B76012E9D13D9BD /* ZLImageView.m */; };
+		58BB8A960FAA6F89BD39AA4C15A24973 /* ZLKit_Warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8EEC8969215F466C732B0698B4F12E /* ZLKit_Warning@2x.png */; };
+		59AC92E553862596564783200DEF7C50 /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C26EB293BE73D242A3DA157784FBC /* ZLCollectionView.m */; };
+		61D5A99D94DFF3373990601F400ED9D0 /* ZLKeyboardMoneyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 448B0E3402959FAB8C0C42B0D2FC6F63 /* ZLKeyboardMoneyField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62D26354431858E97DDE912AEAA67889 /* ZLKit_Error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD02B4CDD862D3BD687AB8299EFBC230 /* ZLKit_Error@2x.png */; };
+		646433793548641CFD14E0F1415E81B9 /* ZLKit_ Close Keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB41A479E86310FDF6E1B1E661D52255 /* ZLKit_ Close Keyboard@3x.png */; };
+		68243D1497874B2DB4BC30C5B2AE644D /* ZLKit_Timeout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC29D096A4863CF419A3AD630EA15A0C /* ZLKit_Timeout@3x.png */; };
 		696D3FB95B3D97946933F4616F01CE45 /* Pods-ZLKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA39F2A858F9FEFE4ABCE5D1EAE50DB3 /* Pods-ZLKit_Tests-dummy.m */; };
-		6A238414E65C76A8E1063D992261DB1C /* ZLNavigationBar_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32F2E5191CAF7F55472A3478DD1480A2 /* ZLNavigationBar_search@3x.png */; };
-		6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 790152F800D5F728D87BCAA4089A9483 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6DE1C92C03628554AC7D72319222C7E3 /* ZLKit_Timeout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50770E9D1DAA5470161E04CC92AEB6FA /* ZLKit_Timeout@2x.png */; };
-		6E445694552A3348AE3F845350DF8A14 /* ZLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0AFF6FDBCB627F70C6848263EFED5A /* ZLLabel.m */; };
-		7109259C748DCAC2E097ACBDA551B20F /* ZLWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2580403A35DBBE6FD1018D3A80DA8FD5 /* ZLWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD7703B3C96A1C78526EDF69677C6 /* AFURLRequestSerialization.m */; };
-		7512C651C55793418787D6D101D23E3D /* UIView+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F2424A94A6EC579EC63F8E5AF30DE3 /* UIView+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		787F68D20C138BD976E13CD4440F2BE5 /* ZLNavigationBar_GoBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C9AA7E0A09B08B30B81B18A91313C5 /* ZLNavigationBar_GoBack@2x.png */; };
-		7911C5C7C34BB028530FBFB75CECCF42 /* Pods-ZLKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C399266DD7BC9D847A719B6CD7894B /* Pods-ZLKit_Example-dummy.m */; };
-		7A23BEEDB9077D198D7D81963DB4F169 /* ZLImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1652DD1E1396AFAE0393A0449E286EDA /* ZLImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B3B2C0B3D6126015B4D3DF984603010 /* ZLKeyboardMoneyField.h in Headers */ = {isa = PBXBuildFile; fileRef = 448B0E3402959FAB8C0C42B0D2FC6F63 /* ZLKeyboardMoneyField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F74ECB0EC1DAD5CCE8CA28890E92BC7 /* ZLKit_NullData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BC62A70F8B45AD661509146051A73A /* ZLKit_NullData@2x.png */; };
-		80B591ADEE664D46FE8392E12D7A8BFA /* ZLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4765AA5FCE583975C89FD854E3F4166B /* ZLTableView.m */; };
-		8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC9E152A2759CA33E5D575F9AD4AA14 /* AFHTTPSessionManager.m */; };
-		86443FC45343553D7FFA52F0764DBC86 /* ZLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AEE46EDF1C508B1906ECAF6EE688C4 /* ZLButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9B3643E5CE9A02B7E967AECADE437 /* UIProgressView+AFNetworking.m */; };
-		896695FB88E12851A466BC3F1140EE4F /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B97E9AE08DA2A979137F2032A436E /* ZLTextField.m */; };
-		8C8BBFCDC70206B314CBF586731BC8E3 /* ZLKeyboardMoneyField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FC4F915B78FB0C356D542999C3DB0 /* ZLKeyboardMoneyField.m */; };
-		8FB17C6D7A1B7CC686699F1F5AD85922 /* ZLScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84019F8B0B01028EABF4B27D9D674036 /* ZLScrollView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8FF54A823AF52774A6536AFC487C25D8 /* ZLTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0541354EB7073BD72777922D7B93B8CE /* ZLTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		93EE68D65E590047E57E088602CBB3C3 /* ZLKit_NoNetwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A4A24A121800D821242B9A31781252 /* ZLKit_NoNetwork@3x.png */; };
-		9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A78C1D351AEDF55C6C587F4D46D9CB /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C306BFCFB687A42CABF13BAF5A274D2 /* ZLTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A06B8486DEE8F837074CD6CC1F7821 /* ZLTimerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9F70329FBBE81AC93DB9F5E42A7E891F /* ZLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FC06AF5F7432EA0E4235980D175A84 /* ZLTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0162806B922234F67289A4BA61492D3 /* ZLKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C458309CF135922224D747D7D94AE143 /* ZLKitHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A098A6F45A8D805D8B503E4E1E695AEA /* ZLKit_ Close Keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB41A479E86310FDF6E1B1E661D52255 /* ZLKit_ Close Keyboard@3x.png */; };
-		A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0B4C1B94230BE9F47999D2EC647271 /* UIButton+AFNetworking.m */; };
-		A1F75247218E43745BA65FA57F5B0300 /* UIColor+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 666E9DC2D439BDBA175D9BECB7CBF273 /* UIColor+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A3B1155204D8C2F735B346E1DBE69319 /* ZLKit_Warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EFD2047DD9D17FC933D41B55E70601 /* ZLKit_Warning@3x.png */; };
-		A7323DA9FBD05DCE7B03E3DCEC789EF7 /* ZLKit_Error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EB5A758FE5693F2BF8B3D9460F01AD /* ZLKit_Error@3x.png */; };
-		A7EEB7260701C76DA8D93A927BF20CC1 /* ZLKit_Timeout@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC29D096A4863CF419A3AD630EA15A0C /* ZLKit_Timeout@3x.png */; };
-		A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A558955E6603B107E936B2874937FB3E /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA62196C5A23717A0EE55F2372782FB5 /* ZLKit_NullData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DA708C4DDECFE66AEB10E67C0E4AFD /* ZLKit_NullData@3x.png */; };
-		AB99DD50A79F78987DA4E8B8A8914196 /* UIView+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B14948C1B98470A9589949761AAEBB /* UIView+ZLCustom.m */; };
-		ABC6EC96AFB402119322421E4AA62F60 /* ZLTemplateManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EF8DFE0BA02C5ADD11FFD5A8971B6 /* ZLTemplateManger.m */; };
-		AC2B480AB4756227ED879D52A8896CF9 /* ZLKit_ServerFailure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFF91FFE31F3C86EC6C094970E47F /* ZLKit_ServerFailure@3x.png */; };
-		B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FFCE26D52EEC13F529607191CF219B /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41507A27965EB69952CA56B88167DE88 /* AFNetworking-dummy.m */; };
-		B27878E3B8F8ADB1FE01DBD6CB5812E7 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 50649A51C859741A6D3BC2D1500F7599 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B43BD9389A892B8123ECEFC3E55028BD /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD313B18B6909D32598F1EC9BE92686 /* ZLTextView.m */; };
-		B5DDBCF52A9CBF538B17A27954C60442 /* ZLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D247EEA1E95541BAFD6547D2ED54EB27 /* ZLImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B60C1ABB95497847FCED867DA272FD08 /* ZLMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BAEAE8EA37988E2541DD7A52C845AC /* ZLMessageTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE983C69D3F659D9362FA12A2B69F866 /* ZLKit_ Close Keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA99AB55EC9300CE30CC32BAC0352B84 /* ZLKit_ Close Keyboard@2x.png */; };
-		C06F61A759022A62864BD9F8EE3660F3 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 250102777A935C6E0C5E38905F572F31 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E48B7336FC8F316DD54C388F26DA16A /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C2D616B56B59CB9FD0EF8A29F277769E /* ZLKit_ServerFailure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAD50AF207BC5B1C22A25D9C1C4C9B5 /* ZLKit_ServerFailure@2x.png */; };
-		C6B80BC4820D69ED9DA57AF9F66340BC /* ZLKit_NoNetwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DE66E18333BA173861387B417A49E19 /* ZLKit_NoNetwork@2x.png */; };
-		CAA2573C8E9B65D8917FD83CAC2D32AA /* ZLKit_Error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD02B4CDD862D3BD687AB8299EFBC230 /* ZLKit_Error@2x.png */; };
-		D280A3B13923FF5FA778EF312BD965F7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D7D8ECC17A6B2D78A04A90D35B9D7B /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A634F3D6DBB62855AE4341ECD542CCF9 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5131E34FEDC093AE7FD352DE4F41A4F /* ZLMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F936A503D16BB65BBE5869213A89262 /* ZLMessageTextView.m */; };
-		D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DE85B80D6B5B552CA39B05F5392807 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E1B82F3B62FDBCB4C7EAACB31B1613EC /* ZLNavigationBar_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17BFC3CF31A2F4F816AC8962526EEE7A /* ZLNavigationBar_search@2x.png */; };
-		E467D167063B11B88946808B813D8D35 /* NSJSONSerialization+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = C3959BDD95E1B04BD6712DC51AAD99D5 /* NSJSONSerialization+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7351E56F4C49CE1F9559D5C69ECC1ED /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B9DE4000163C4075347DD9DCA9945 /* AFURLSessionManager.m */; };
-		E9286F013194D0B470CA6D74BF5450AD /* ZLNavigationBar_GoBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4872FF24B0E1FE353E02CD30759F2B3 /* ZLNavigationBar_GoBack@3x.png */; };
-		F050D0C84E5634415EF3363CB5831EF2 /* ZLWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C227DAFA2EA979BD49F8E5E7304D4F81 /* ZLWarnView.m */; };
-		F2DB8E02AD680187F50B261583F3B7B6 /* ZLTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7292BD3E5BC7C3E427BE0BD9EB67DE /* ZLTimerManager.m */; };
-		F3B865AEEFEBC3933F41A12F4012C4D7 /* ZLCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C26EB293BE73D242A3DA157784FBC /* ZLCollectionView.m */; };
-		F6F42512E20328FDE2395807D6E9363E /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02987B769D21AE906E41F57B4EB580DA /* ZLButton.m */; };
-		F9AD2CFBEDD600706B921428D25DFA3A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5CA2860A9A7E7071B67B0E9E22A39 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FEAA3C60F4BDDAC22BD1A6B047DBAAE9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3748966306A92ECDAB19EBB96115A531 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		788D3D8A437B59A0F91E0A397AA2A64F /* ZLKit_Error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EB5A758FE5693F2BF8B3D9460F01AD /* ZLKit_Error@3x.png */; };
+		7D94EDC08E0899AAC30FA6E56398E57A /* ZLKit_NoNetwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A4A24A121800D821242B9A31781252 /* ZLKit_NoNetwork@3x.png */; };
+		80B6AC6AB16CCED332CF2D033C075605 /* UIView+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B14948C1B98470A9589949761AAEBB /* UIView+ZLCustom.m */; };
+		80C88807629C4293E2E33F620B2ACD43 /* ZLCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0497218CB860FE584D737865929B6E12 /* ZLCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84DC23FCDDC2F9B1CC2EE13D12151559 /* ZLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 432FF4B87D3732DBE2979A7CDB0EB429 /* ZLScrollView.m */; };
+		8A4256FBA472F32F401A4EB1B471EA04 /* ZLKit_ Close Keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA99AB55EC9300CE30CC32BAC0352B84 /* ZLKit_ Close Keyboard@2x.png */; };
+		94441C9064A163D1CDF1D30754A2D72A /* ZLKit_Delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5DB1295E535E3622BCA92D0F3D36A8D /* ZLKit_Delete@3x.png */; };
+		9454013817ACB36D244C1D77A520E872 /* ZLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93029ECCB72727251E7D65715DEAD14A /* ZLTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D59F5F9F23D2FF6FFE7E93AE95ED9A7 /* ZLImaginaryLine.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D03963EE189FEEE2304F10C0B5A2AB /* ZLImaginaryLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F8BDE57BDE95747B48161A2AAEA4D60 /* ZLKeyboardMoneyField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FC4F915B78FB0C356D542999C3DB0 /* ZLKeyboardMoneyField.m */; };
+		A0D59EEEC180BA242047AFFCDDE2C7E7 /* ZLKitHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C458309CF135922224D747D7D94AE143 /* ZLKitHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A377EF2A44A01DCC6D2DD2CA7798711B /* ZLWarnView.m in Sources */ = {isa = PBXBuildFile; fileRef = C227DAFA2EA979BD49F8E5E7304D4F81 /* ZLWarnView.m */; };
+		A5004A7C98930727D075784E2CBFDA8F /* ZLTemplateManger.h in Headers */ = {isa = PBXBuildFile; fileRef = FD393A4FBF1304DCBDC3703A6DF532E9 /* ZLTemplateManger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7C84C16649A7A4C2EBA43C462F8DC5C /* ZLImaginaryLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED1ED1664736A9D06585F20B158C /* ZLImaginaryLine.m */; };
+		AB1FF5FC781FE07E6858CC29AF75C6DE /* ZLKit_NullData@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BC62A70F8B45AD661509146051A73A /* ZLKit_NullData@2x.png */; };
+		AC81286B583370356E856F5EFD7D7259 /* NSJSONSerialization+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 750D79AC4B6AB96EB20CBAB3073DE97D /* NSJSONSerialization+ZLCustom.m */; };
+		ADCB39270E0B31789215993246AB1E0C /* ZLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62A1372E7CFA4F9083E7D05A0C05C76 /* ZLWebView.m */; };
+		AE11590F040EBB48CF71AADBC0B50059 /* ZLKit_ServerFailure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEAD50AF207BC5B1C22A25D9C1C4C9B5 /* ZLKit_ServerFailure@2x.png */; };
+		B3DDD9F8A901A9031C688BD2F8BD8105 /* ZLKit_ServerFailure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFF91FFE31F3C86EC6C094970E47F /* ZLKit_ServerFailure@3x.png */; };
+		B45DDC9807D663D3B61B9E5492F7B49A /* ZLTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A06B8486DEE8F837074CD6CC1F7821 /* ZLTimerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8393E6EB5CE4B7991021C9F79AF24A6 /* ZLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B97E9AE08DA2A979137F2032A436E /* ZLTextField.m */; };
+		BAE40AFB29BB388EC6649E00BC287B60 /* ZLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FC06AF5F7432EA0E4235980D175A84 /* ZLTextField.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C81E8C554D48A3AFD0400577AC57A3D3 /* ZLKit_Timeout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50770E9D1DAA5470161E04CC92AEB6FA /* ZLKit_Timeout@2x.png */; };
+		CC494D182FF065BE642B09CD64AF204A /* ZLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C87A6062F6AABF764E473740C148AE0D /* ZLImage.m */; };
+		CCB9C79B2F0721858DA5DAF469D9153E /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02987B769D21AE906E41F57B4EB580DA /* ZLButton.m */; };
+		CFE677098310A459A7EE63048556FD32 /* NSString+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = F00B7CEFDB3E86ADA415D124CC626475 /* NSString+ZLCustom.m */; };
+		D5D70A13DF5DB2C7DA341390C41EDFB0 /* UIColor+ZLCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = E32731E46FF65A31366B7E28552C5172 /* UIColor+ZLCustom.m */; };
+		DE5068994937F86928463DEB97E3AE2D /* Pods-ZLKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C399266DD7BC9D847A719B6CD7894B /* Pods-ZLKit_Example-dummy.m */; };
+		EAFA523AFA55E381B1D1A77032B75B78 /* ZLTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7292BD3E5BC7C3E427BE0BD9EB67DE /* ZLTimerManager.m */; };
+		EB65538ACC6AA4F870107411EB8A0A7B /* UIView+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F2424A94A6EC579EC63F8E5AF30DE3 /* UIView+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFB3048DEB13EE8CC59BC3DA3A123F71 /* NSString+ZLCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3576D736D2501A997E0B24297503EC /* NSString+ZLCustom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBAD400B90704651CD3BF01C94B01889 /* ZLWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2580403A35DBBE6FD1018D3A80DA8FD5 /* ZLWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCCC87A727B716D42D6E779A38F94F30 /* ZLKit_NullData@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16DA708C4DDECFE66AEB10E67C0E4AFD /* ZLKit_NullData@3x.png */; };
+		FEF6A670FB75C79330ACDA3F6C928728 /* ZLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD313B18B6909D32598F1EC9BE92686 /* ZLTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E99A6FE97781D80F5355542080A3F57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C5034840FC1CEBF1DFA2AE4E0EDE7C6;
-			remoteInfo = ZLHTTPSessionManager;
-		};
-		1C09B9D93D08BB76A44E7788450D81C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 189101C072DDEA7FEB1B8EAF31D4ECCA;
-			remoteInfo = "ZLNavigationBar-ZLNavigationBar";
-		};
-		26789EFBA53722C7636554F44EA785A2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C5034840FC1CEBF1DFA2AE4E0EDE7C6;
-			remoteInfo = ZLHTTPSessionManager;
-		};
-		4220840ED10F127F687122B779A93808 /* PBXContainerItemProxy */ = {
+		30013FD348839482636E6F141EF299F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ACD2088D4602FBCAF0F80875CC03E168;
 			remoteInfo = ZLKit;
 		};
-		580A56CBCFE617E6532D6B8B2BE450C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
-		B9601C42209DD522E5FCEA4B12FEB182 /* PBXContainerItemProxy */ = {
+		9FD8AF7FB95AE22B9B0749C2FBC50E4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58B789A71DC3929A145F33799E06FC4A;
 			remoteInfo = "ZLKit-ZLKit";
-		};
-		D5AACF115A3B8FFCAD2A1F3BE338CAC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
-			remoteInfo = ZLNavigationBar;
-		};
-		DBA2BA642E6FAA1D9F76A23D656E2EAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
 		};
 		EBE27A1DAF569AD8B984D2F7AE5D1A06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -196,13 +92,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8CD2B3E86F854CFF87C5765C0E9DD2F4;
 			remoteInfo = "Pods-ZLKit_Example";
-		};
-		F79EFD1C4BF84C5A2EC3FBB84B3DE15A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A53BFF9B0EA49767C9AEF0BC19AA3DCC;
-			remoteInfo = ZLNavigationBar;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -213,139 +102,93 @@
 		0541354EB7073BD72777922D7B93B8CE /* ZLTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLTableView.h; sourceTree = "<group>"; };
 		07BAEAE8EA37988E2541DD7A52C845AC /* ZLMessageTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLMessageTextView.h; sourceTree = "<group>"; };
 		07ECAF70ADE5EB655DD1E6432A82349B /* ResourceBundle-ZLKit-ZLKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLKit-ZLKit-Info.plist"; sourceTree = "<group>"; };
-		0AC7E6FA3139AA0776EA216A61CF8014 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		0C8B97E9AE08DA2A979137F2032A436E /* ZLTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTextField.m; sourceTree = "<group>"; };
-		0CF90A06D942FE29C00D51A9EEB38307 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		0EC94BA6A2EF7159FF9D8BE154016A78 /* ZLKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F5B47AF26D4D5BE9E60E1F1208A74DD /* libPods-ZLKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLKit_Tests.a"; path = "libPods-ZLKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		106E31A5B469932B11584C0E346D680C /* ZLHTTPSessionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLHTTPSessionManager.debug.xcconfig; sourceTree = "<group>"; };
-		12399C77049C792A4368210A85557A00 /* ZLNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.debug.xcconfig; sourceTree = "<group>"; };
 		1652DD1E1396AFAE0393A0449E286EDA /* ZLImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLImageView.h; sourceTree = "<group>"; };
 		16DA708C4DDECFE66AEB10E67C0E4AFD /* ZLKit_NullData@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_NullData@3x.png"; path = "ZLKit/Assets/ZLKit_NullData@3x.png"; sourceTree = "<group>"; };
-		17BFC3CF31A2F4F816AC8962526EEE7A /* ZLNavigationBar_search@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar.bundle/ZLNavigationBar_search@2x.png"; sourceTree = "<group>"; };
 		22CAED1ED1664736A9D06585F20B158C /* ZLImaginaryLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLImaginaryLine.m; sourceTree = "<group>"; };
-		250102777A935C6E0C5E38905F572F31 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		2574276EC1F93B92AA1530D3E9DA8A99 /* Pods-ZLKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2580403A35DBBE6FD1018D3A80DA8FD5 /* ZLWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLWebView.h; sourceTree = "<group>"; };
-		28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZLNavigationBar.bundle; path = "ZLNavigationBar-ZLNavigationBar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C399266DD7BC9D847A719B6CD7894B /* Pods-ZLKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLKit_Example-dummy.m"; sourceTree = "<group>"; };
-		29E5E2E84EBA913C7157774991DDE28A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		2A0FC4F915B78FB0C356D542999C3DB0 /* ZLKeyboardMoneyField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLKeyboardMoneyField.m; sourceTree = "<group>"; };
-		2B5D2A02854FDAC8058C7E4DD091623B /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		2D45612575A70282D0E18FC5D34707AD /* ZLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLLabel.h; sourceTree = "<group>"; };
 		2D4719B61963125A8CF240A1A5BDAF10 /* ZLKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLKit-dummy.m"; sourceTree = "<group>"; };
 		2F7292BD3E5BC7C3E427BE0BD9EB67DE /* ZLTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTimerManager.m; sourceTree = "<group>"; };
-		32F2E5191CAF7F55472A3478DD1480A2 /* ZLNavigationBar_search@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_search@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar.bundle/ZLNavigationBar_search@3x.png"; sourceTree = "<group>"; };
 		36119F6C1757E0D3106A45193845A2B3 /* Pods-ZLKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36DE85B80D6B5B552CA39B05F5392807 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		3748966306A92ECDAB19EBB96115A531 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		3C73D4DECAAB940C420BD378BFED1665 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		3CF9B3643E5CE9A02B7E967AECADE437 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		3D3A13AFC91677255D8C5531EBB1BA3A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		41507A27965EB69952CA56B88167DE88 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		43030A9F4A979D176D980085A12E961E /* Pods-ZLKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		432FF4B87D3732DBE2979A7CDB0EB429 /* ZLScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLScrollView.m; sourceTree = "<group>"; };
 		43F3FDCDC145CBB12178577A7EC4D8B1 /* libPods-ZLKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLKit_Example.a"; path = "libPods-ZLKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		448B0E3402959FAB8C0C42B0D2FC6F63 /* ZLKeyboardMoneyField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLKeyboardMoneyField.h; sourceTree = "<group>"; };
 		44B14948C1B98470A9589949761AAEBB /* UIView+ZLCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLCustom.m"; sourceTree = "<group>"; };
 		4765AA5FCE583975C89FD854E3F4166B /* ZLTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTableView.m; sourceTree = "<group>"; };
-		488489B87D663D93784083C6030C8214 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		489527BD63F306E630004ADC9276C665 /* ZLKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZLKit.bundle; path = "ZLKit-ZLKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4B5304A9798D14348428CA0F15087F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4B0B4C1B94230BE9F47999D2EC647271 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		4CD313B18B6909D32598F1EC9BE92686 /* ZLTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTextView.m; sourceTree = "<group>"; };
 		4CF71097AF7E0BE7D095B19460B6C924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		50649A51C859741A6D3BC2D1500F7599 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		50770E9D1DAA5470161E04CC92AEB6FA /* ZLKit_Timeout@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Timeout@2x.png"; path = "ZLKit/Assets/ZLKit_Timeout@2x.png"; sourceTree = "<group>"; };
 		55EB5A758FE5693F2BF8B3D9460F01AD /* ZLKit_Error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Error@3x.png"; path = "ZLKit/Assets/ZLKit_Error@3x.png"; sourceTree = "<group>"; };
-		562341B61C0B4402A350C52B520E31D5 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		56BC62A70F8B45AD661509146051A73A /* ZLKit_NullData@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_NullData@2x.png"; path = "ZLKit/Assets/ZLKit_NullData@2x.png"; sourceTree = "<group>"; };
-		5708893CA1B92F696BA9554612D3716A /* ZLNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLNavigationBar.release.xcconfig; sourceTree = "<group>"; };
-		5912F51F9FCC296AC59EBAF223B1012C /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		59C9AA7E0A09B08B30B81B18A91313C5 /* ZLNavigationBar_GoBack@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@2x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar.bundle/ZLNavigationBar_GoBack@2x.png"; sourceTree = "<group>"; };
 		59FC06AF5F7432EA0E4235980D175A84 /* ZLTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLTextField.h; sourceTree = "<group>"; };
-		5A78197F69565903E15AA42196FF1490 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		5DC707EAF5BB4F7839A93D18FBBDF7BD /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		5F936A503D16BB65BBE5869213A89262 /* ZLMessageTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLMessageTextView.m; sourceTree = "<group>"; };
 		5FEB318A1C808841EBAA1BF681F2C96D /* ZLStaticPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLStaticPage.m; sourceTree = "<group>"; };
 		666E9DC2D439BDBA175D9BECB7CBF273 /* UIColor+ZLCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZLCustom.h"; sourceTree = "<group>"; };
-		6684390A511CBFAD90F6E10BA8F86624 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		6730447921DF586E81B6D1321506D03A /* Pods-ZLKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6AE3CB0467A6645DFFE79BE7E8B56249 /* ZLKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLKit-prefix.pch"; sourceTree = "<group>"; };
-		6B6FCEA51C0CB7210612184B23B5C155 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		6C1475AD17EE1DB33789B54FF7BC8F31 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		6D0AFF6FDBCB627F70C6848263EFED5A /* ZLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLLabel.m; sourceTree = "<group>"; };
-		712AFB20DA34F838248567D409B53C79 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		716B9DE4000163C4075347DD9DCA9945 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		750D79AC4B6AB96EB20CBAB3073DE97D /* NSJSONSerialization+ZLCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+ZLCustom.m"; sourceTree = "<group>"; };
-		7723C7C078769B7A0114C39DF6C277EA /* ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist"; sourceTree = "<group>"; };
-		790152F800D5F728D87BCAA4089A9483 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		79554F9B2831C1D9D9D0F4F08E2BD84A /* ZLHTTPSessionManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZLHTTPSessionManager.framework; path = ZLHTTPSessionManager/Classes/ZLHTTPSessionManager.framework; sourceTree = "<group>"; };
-		79A78C1D351AEDF55C6C587F4D46D9CB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		82A4A24A121800D821242B9A31781252 /* ZLKit_NoNetwork@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_NoNetwork@3x.png"; path = "ZLKit/Assets/ZLKit_NoNetwork@3x.png"; sourceTree = "<group>"; };
 		84019F8B0B01028EABF4B27D9D674036 /* ZLScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLScrollView.h; sourceTree = "<group>"; };
 		88F2424A94A6EC579EC63F8E5AF30DE3 /* UIView+ZLCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLCustom.h"; sourceTree = "<group>"; };
-		8AFFD7703B3C96A1C78526EDF69677C6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		8B8EEC8969215F466C732B0698B4F12E /* ZLKit_Warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Warning@2x.png"; path = "ZLKit/Assets/ZLKit_Warning@2x.png"; sourceTree = "<group>"; };
-		8E48B7336FC8F316DD54C388F26DA16A /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		9014B6C53EBB1B721692CA9507293192 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		93029ECCB72727251E7D65715DEAD14A /* ZLTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLTextView.h; sourceTree = "<group>"; };
-		94D5CA2860A9A7E7071B67B0E9E22A39 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		9ABB5F39ACE2C4C05A3DA406AF63E2A2 /* Pods-ZLKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C27BC08B43FC33F2B76012E9D13D9BD /* ZLImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLImageView.m; sourceTree = "<group>"; };
 		9C3576D736D2501A997E0B24297503EC /* NSString+ZLCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+ZLCustom.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE66E18333BA173861387B417A49E19 /* ZLKit_NoNetwork@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_NoNetwork@2x.png"; path = "ZLKit/Assets/ZLKit_NoNetwork@2x.png"; sourceTree = "<group>"; };
 		A3EFD2047DD9D17FC933D41B55E70601 /* ZLKit_Warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Warning@3x.png"; path = "ZLKit/Assets/ZLKit_Warning@3x.png"; sourceTree = "<group>"; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A558955E6603B107E936B2874937FB3E /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		A59E13EE3DD0E9383EF6C9952CFD27D7 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		A60E18F4C4E36576FCED9A63235F4974 /* ZLStaticPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLStaticPage.h; sourceTree = "<group>"; };
-		A634F3D6DBB62855AE4341ECD542CCF9 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		A7AEE46EDF1C508B1906ECAF6EE688C4 /* ZLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLButton.h; sourceTree = "<group>"; };
-		A83DA6391EC69297CD7D5ED5A9D31F47 /* ZLHTTPSessionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLHTTPSessionManager.release.xcconfig; sourceTree = "<group>"; };
 		A87C26EB293BE73D242A3DA157784FBC /* ZLCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionView.m; sourceTree = "<group>"; };
 		AB41A479E86310FDF6E1B1E661D52255 /* ZLKit_ Close Keyboard@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_ Close Keyboard@3x.png"; path = "ZLKit/Assets/ZLKit_ Close Keyboard@3x.png"; sourceTree = "<group>"; };
 		AC29D096A4863CF419A3AD630EA15A0C /* ZLKit_Timeout@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Timeout@3x.png"; path = "ZLKit/Assets/ZLKit_Timeout@3x.png"; sourceTree = "<group>"; };
 		B1441B2D04063E4A202C7C1CF3EBABB8 /* ZLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLKit.debug.xcconfig; sourceTree = "<group>"; };
 		B7D03963EE189FEEE2304F10C0B5A2AB /* ZLImaginaryLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLImaginaryLine.h; sourceTree = "<group>"; };
-		B9D7D8ECC17A6B2D78A04A90D35B9D7B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		BCDC47309FD29A3E4D7D2D3FD4826E47 /* ZLNavigationBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZLNavigationBar.framework; path = ZLNavigationBar/Classes/ZLNavigationBar.framework; sourceTree = "<group>"; };
 		BEAC284B0F190B134DFB1D07A68B7AD9 /* libZLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZLKit.a; path = libZLKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C227DAFA2EA979BD49F8E5E7304D4F81 /* ZLWarnView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLWarnView.m; sourceTree = "<group>"; };
 		C3959BDD95E1B04BD6712DC51AAD99D5 /* NSJSONSerialization+ZLCustom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+ZLCustom.h"; sourceTree = "<group>"; };
 		C458309CF135922224D747D7D94AE143 /* ZLKitHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLKitHeader.h; path = ZLKit/Classes/ZLKitHeader.h; sourceTree = "<group>"; };
 		C87A6062F6AABF764E473740C148AE0D /* ZLImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLImage.m; sourceTree = "<group>"; };
-		C8A566961B08A1B1BEA90F195815AC4B /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		CD02B4CDD862D3BD687AB8299EFBC230 /* ZLKit_Error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Error@2x.png"; path = "ZLKit/Assets/ZLKit_Error@2x.png"; sourceTree = "<group>"; };
 		D0E3FC901A6F8120F43DD286F6B53847 /* Pods-ZLKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLKit_Example-resources.sh"; sourceTree = "<group>"; };
-		D1DDC6BFC6D6D9155FED009C10457D60 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		D247EEA1E95541BAFD6547D2ED54EB27 /* ZLImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLImage.h; sourceTree = "<group>"; };
 		D3E664A5F026F3C683993064CE944F6C /* Pods-ZLKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D4872FF24B0E1FE353E02CD30759F2B3 /* ZLNavigationBar_GoBack@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLNavigationBar_GoBack@3x.png"; path = "ZLNavigationBar/Assets/ZLNavigationBar.bundle/ZLNavigationBar_GoBack@3x.png"; sourceTree = "<group>"; };
 		D62A1372E7CFA4F9083E7D05A0C05C76 /* ZLWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLWebView.m; sourceTree = "<group>"; };
 		D6A06B8486DEE8F837074CD6CC1F7821 /* ZLTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLTimerManager.h; sourceTree = "<group>"; };
 		D6FBC4F698EB780897C53ECD4EBEAF48 /* ZLKit_Delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Delete@2x.png"; path = "ZLKit/Assets/ZLKit_Delete@2x.png"; sourceTree = "<group>"; };
 		E31EF8DFE0BA02C5ADD11FFD5A8971B6 /* ZLTemplateManger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZLTemplateManger.m; sourceTree = "<group>"; };
 		E32731E46FF65A31366B7E28552C5172 /* UIColor+ZLCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZLCustom.m"; sourceTree = "<group>"; };
-		E3A8439BAA35D21423A103E0A3BB6FF0 /* ZLNavigationBarHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLNavigationBarHeader.h; path = ZLNavigationBar/Classes/ZLNavigationBarHeader.h; sourceTree = "<group>"; };
 		E43ECF1FE0F55FA2276DC9467A00751D /* ZLWarnView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLWarnView.h; sourceTree = "<group>"; };
 		E5DB1295E535E3622BCA92D0F3D36A8D /* ZLKit_Delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_Delete@3x.png"; path = "ZLKit/Assets/ZLKit_Delete@3x.png"; sourceTree = "<group>"; };
 		EA39F2A858F9FEFE4ABCE5D1EAE50DB3 /* Pods-ZLKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		EAC9E152A2759CA33E5D575F9AD4AA14 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		EE7FFF91FFE31F3C86EC6C094970E47F /* ZLKit_ServerFailure@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_ServerFailure@3x.png"; path = "ZLKit/Assets/ZLKit_ServerFailure@3x.png"; sourceTree = "<group>"; };
 		F00B7CEFDB3E86ADA415D124CC626475 /* NSString+ZLCustom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZLCustom.m"; sourceTree = "<group>"; };
-		F1FFCE26D52EEC13F529607191CF219B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		F3A2D4383F6C5060987E9AE30FF067F9 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		F41CCBE7B7DE7AC8D686BE531B0052CD /* ZLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLKit.release.xcconfig; sourceTree = "<group>"; };
 		F4856975C876BE109A7E5650B8FECDA8 /* Pods-ZLKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA99AB55EC9300CE30CC32BAC0352B84 /* ZLKit_ Close Keyboard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_ Close Keyboard@2x.png"; path = "ZLKit/Assets/ZLKit_ Close Keyboard@2x.png"; sourceTree = "<group>"; };
 		FD393A4FBF1304DCBDC3703A6DF532E9 /* ZLTemplateManger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZLTemplateManger.h; sourceTree = "<group>"; };
 		FEAD50AF207BC5B1C22A25D9C1C4C9B5 /* ZLKit_ServerFailure@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ZLKit_ServerFailure@2x.png"; path = "ZLKit/Assets/ZLKit_ServerFailure@2x.png"; sourceTree = "<group>"; };
-		FF43A6284D516C0F40A9B2493DC963D3 /* ZLHTTPSessionHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLHTTPSessionHeader.h; path = ZLHTTPSessionManager/Classes/ZLHTTPSessionHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		027923F464B0FE19C662F607FCB9AB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1237835D97083498255CDF58C1902122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,35 +196,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B0025AF47F2899C046C73C6691B620F /* Frameworks */ = {
+		66F75455AFCCEFBD8ACAFD03AA94C83E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5581656A4D905253CBF6301C5D79AC41 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74CA1619F24B79CC712A86A70DED135F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFA5081D421A68996B6E6896398E3E7B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2D234ED57CCCEEAD6A9A5F7AB15165E /* Frameworks */ = {
+		D9EC7DAABDA3E91CE5AA95629AC723C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,53 +213,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041F3DF9C5D42FFFB48BB6D5FBB95FCF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D194574A3B92E312DED97A4B09DE788 /* AFNetworking */,
-				B7817EF88A7ED2B043DB83A75B3E54E2 /* ZLHTTPSessionManager */,
-				96C2F3F7E5CB920D74421D70ABAE54E7 /* ZLNavigationBar */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		0E047C71F0884804D71CDC75F195AB25 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-				5C469BEC1EB51949F621855954F1593C /* Frameworks */,
-			);
-			name = Unit;
-			sourceTree = "<group>";
-		};
-		163DB7CB176C747487827636978A6998 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BCDC47309FD29A3E4D7D2D3FD4826E47 /* ZLNavigationBar.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1C6785FA7C202BFD98CEA939255553D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				41507A27965EB69952CA56B88167DE88 /* AFNetworking-dummy.m */,
-				A59E13EE3DD0E9383EF6C9952CFD27D7 /* AFNetworking-prefix.pch */,
-				5A78197F69565903E15AA42196FF1490 /* AFNetworking.debug.xcconfig */,
-				D1DDC6BFC6D6D9155FED009C10457D60 /* AFNetworking.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		291EDEFB954013AADE30D92A64F5B393 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				3D3A13AFC91677255D8C5531EBB1BA3A /* AFNetworkReachabilityManager.h */,
-				9014B6C53EBB1B721692CA9507293192 /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
 		32E2C0D7FAEF256007AC5DFAE210BCC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,16 +266,15 @@
 			path = "Target Support Files/Pods-ZLKit_Example";
 			sourceTree = "<group>";
 		};
-		3E2C489E865EC1771866B689599B7D26 /* NSURLSession */ = {
+		4314B884BEFDF33846B6C524ED753DDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AC7E6FA3139AA0776EA216A61CF8014 /* AFCompatibilityMacros.h */,
-				B9D7D8ECC17A6B2D78A04A90D35B9D7B /* AFHTTPSessionManager.h */,
-				EAC9E152A2759CA33E5D575F9AD4AA14 /* AFHTTPSessionManager.m */,
-				712AFB20DA34F838248567D409B53C79 /* AFURLSessionManager.h */,
-				716B9DE4000163C4075347DD9DCA9945 /* AFURLSessionManager.m */,
+				43F3FDCDC145CBB12178577A7EC4D8B1 /* libPods-ZLKit_Example.a */,
+				0F5B47AF26D4D5BE9E60E1F1208A74DD /* libPods-ZLKit_Tests.a */,
+				BEAC284B0F190B134DFB1D07A68B7AD9 /* libZLKit.a */,
+				489527BD63F306E630004ADC9276C665 /* ZLKit.bundle */,
 			);
-			name = NSURLSession;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		55A04D3DA4AA04635D3145D84FF9E7C9 /* Alerts */ = {
@@ -513,14 +287,6 @@
 			);
 			name = Alerts;
 			path = ZLKit/Classes/Alerts;
-			sourceTree = "<group>";
-		};
-		5C469BEC1EB51949F621855954F1593C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				79554F9B2831C1D9D9D0F4F08E2BD84A /* ZLHTTPSessionManager.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		634EADA7C7BB5A956F933BDECF84B8AC /* SubClass */ = {
@@ -555,26 +321,6 @@
 			path = ZLKit/Classes/SubClass;
 			sourceTree = "<group>";
 		};
-		6AE4BE65DBE172AF6E1810CA2DB566AB /* Units */ = {
-			isa = PBXGroup;
-			children = (
-				163DB7CB176C747487827636978A6998 /* Frameworks */,
-				78B61A4C90BCC21345997197084536AF /* Resources */,
-			);
-			name = Units;
-			sourceTree = "<group>";
-		};
-		6E11844494E2760D7395996918F53518 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				36DE85B80D6B5B552CA39B05F5392807 /* AFURLRequestSerialization.h */,
-				8AFFD7703B3C96A1C78526EDF69677C6 /* AFURLRequestSerialization.m */,
-				79A78C1D351AEDF55C6C587F4D46D9CB /* AFURLResponseSerialization.h */,
-				562341B61C0B4402A350C52B520E31D5 /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
 		77F6B3BE96375AD64520587794ED2E51 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -600,44 +346,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		78B61A4C90BCC21345997197084536AF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				59C9AA7E0A09B08B30B81B18A91313C5 /* ZLNavigationBar_GoBack@2x.png */,
-				D4872FF24B0E1FE353E02CD30759F2B3 /* ZLNavigationBar_GoBack@3x.png */,
-				17BFC3CF31A2F4F816AC8962526EEE7A /* ZLNavigationBar_search@2x.png */,
-				32F2E5191CAF7F55472A3478DD1480A2 /* ZLNavigationBar_search@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7B3533508A62AAB27D74FA80329F0877 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				250102777A935C6E0C5E38905F572F31 /* AFAutoPurgingImageCache.h */,
-				2B5D2A02854FDAC8058C7E4DD091623B /* AFAutoPurgingImageCache.m */,
-				790152F800D5F728D87BCAA4089A9483 /* AFImageDownloader.h */,
-				5DC707EAF5BB4F7839A93D18FBBDF7BD /* AFImageDownloader.m */,
-				3748966306A92ECDAB19EBB96115A531 /* AFNetworkActivityIndicatorManager.h */,
-				6C1475AD17EE1DB33789B54FF7BC8F31 /* AFNetworkActivityIndicatorManager.m */,
-				488489B87D663D93784083C6030C8214 /* UIActivityIndicatorView+AFNetworking.h */,
-				5912F51F9FCC296AC59EBAF223B1012C /* UIActivityIndicatorView+AFNetworking.m */,
-				F3A2D4383F6C5060987E9AE30FF067F9 /* UIButton+AFNetworking.h */,
-				4B0B4C1B94230BE9F47999D2EC647271 /* UIButton+AFNetworking.m */,
-				50649A51C859741A6D3BC2D1500F7599 /* UIImage+AFNetworking.h */,
-				94D5CA2860A9A7E7071B67B0E9E22A39 /* UIImageView+AFNetworking.h */,
-				6B6FCEA51C0CB7210612184B23B5C155 /* UIImageView+AFNetworking.m */,
-				8E48B7336FC8F316DD54C388F26DA16A /* UIKit+AFNetworking.h */,
-				A634F3D6DBB62855AE4341ECD542CCF9 /* UIProgressView+AFNetworking.h */,
-				3CF9B3643E5CE9A02B7E967AECADE437 /* UIProgressView+AFNetworking.m */,
-				A558955E6603B107E936B2874937FB3E /* UIRefreshControl+AFNetworking.h */,
-				C8A566961B08A1B1BEA90F195815AC4B /* UIRefreshControl+AFNetworking.m */,
-				6684390A511CBFAD90F6E10BA8F86624 /* UIWebView+AFNetworking.h */,
-				3C73D4DECAAB940C420BD378BFED1665 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
 		801E66FA7FBA8D8D966646A2839BB258 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,52 +365,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		96C2F3F7E5CB920D74421D70ABAE54E7 /* ZLNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				E3A8439BAA35D21423A103E0A3BB6FF0 /* ZLNavigationBarHeader.h */,
-				9DA1FEF113C89C4997999CCCF3671A0A /* Support Files */,
-				6AE4BE65DBE172AF6E1810CA2DB566AB /* Units */,
-			);
-			name = ZLNavigationBar;
-			path = ZLNavigationBar;
-			sourceTree = "<group>";
-		};
-		9C062419CD0D8FF966E8F0349A718D97 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				F1FFCE26D52EEC13F529607191CF219B /* AFSecurityPolicy.h */,
-				29E5E2E84EBA913C7157774991DDE28A /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		9D194574A3B92E312DED97A4B09DE788 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				0CF90A06D942FE29C00D51A9EEB38307 /* AFNetworking.h */,
-				3E2C489E865EC1771866B689599B7D26 /* NSURLSession */,
-				291EDEFB954013AADE30D92A64F5B393 /* Reachability */,
-				9C062419CD0D8FF966E8F0349A718D97 /* Security */,
-				6E11844494E2760D7395996918F53518 /* Serialization */,
-				1C6785FA7C202BFD98CEA939255553D6 /* Support Files */,
-				7B3533508A62AAB27D74FA80329F0877 /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		9DA1FEF113C89C4997999CCCF3671A0A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7723C7C078769B7A0114C39DF6C277EA /* ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist */,
-				12399C77049C792A4368210A85557A00 /* ZLNavigationBar.debug.xcconfig */,
-				5708893CA1B92F696BA9554612D3716A /* ZLNavigationBar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZLNavigationBar";
-			sourceTree = "<group>";
-		};
 		A73A3666453C43DF1106E838C824BB06 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,38 +378,13 @@
 			path = "Example/Pods/Target Support Files/ZLKit";
 			sourceTree = "<group>";
 		};
-		ABA893C709409367EB9739027F575CBE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
-				43F3FDCDC145CBB12178577A7EC4D8B1 /* libPods-ZLKit_Example.a */,
-				0F5B47AF26D4D5BE9E60E1F1208A74DD /* libPods-ZLKit_Tests.a */,
-				BEAC284B0F190B134DFB1D07A68B7AD9 /* libZLKit.a */,
-				489527BD63F306E630004ADC9276C665 /* ZLKit.bundle */,
-				28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B7817EF88A7ED2B043DB83A75B3E54E2 /* ZLHTTPSessionManager */ = {
-			isa = PBXGroup;
-			children = (
-				FF43A6284D516C0F40A9B2493DC963D3 /* ZLHTTPSessionHeader.h */,
-				FFBD8F015CACB364C15B863CF6F6AB11 /* Support Files */,
-				0E047C71F0884804D71CDC75F195AB25 /* Unit */,
-			);
-			name = ZLHTTPSessionManager;
-			path = ZLHTTPSessionManager;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				77F6B3BE96375AD64520587794ED2E51 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				041F3DF9C5D42FFFB48BB6D5FBB95FCF /* Pods */,
-				ABA893C709409367EB9739027F575CBE /* Products */,
+				4314B884BEFDF33846B6C524ED753DDA /* Products */,
 				801E66FA7FBA8D8D966646A2839BB258 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -794,45 +431,9 @@
 			path = ZLKit/Classes/Tools;
 			sourceTree = "<group>";
 		};
-		FFBD8F015CACB364C15B863CF6F6AB11 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				106E31A5B469932B11584C0E346D680C /* ZLHTTPSessionManager.debug.xcconfig */,
-				A83DA6391EC69297CD7D5ED5A9D31F47 /* ZLHTTPSessionManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZLHTTPSessionManager";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1719BD8C8C5FB63E8E3A195F3CF29331 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C06F61A759022A62864BD9F8EE3660F3 /* AFAutoPurgingImageCache.h in Headers */,
-				0343B86E9B9F5619970FCBD7370E033A /* AFCompatibilityMacros.h in Headers */,
-				D280A3B13923FF5FA778EF312BD965F7 /* AFHTTPSessionManager.h in Headers */,
-				6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */,
-				FEAA3C60F4BDDAC22BD1A6B047DBAAE9 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				5FF1B4EEDEE8BCA2E676E2548A412B02 /* AFNetworking.h in Headers */,
-				1102564C9CDAC18DF8D6DB20F6523E72 /* AFNetworkReachabilityManager.h in Headers */,
-				B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */,
-				D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */,
-				9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */,
-				05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */,
-				418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */,
-				B27878E3B8F8ADB1FE01DBD6CB5812E7 /* UIImage+AFNetworking.h in Headers */,
-				F9AD2CFBEDD600706B921428D25DFA3A /* UIImageView+AFNetworking.h in Headers */,
-				C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */,
-				D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */,
-				A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */,
-				337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D89F06AD73C65FC570B887A6C6F978D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -840,86 +441,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2F7F3A2AE948BBBBE0833DC6FC2B7C5 /* Headers */ = {
+		4C10EE96F794FFD7B27795804504FBCC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE4653BA582DCE1C76CB1AA0924F4B1 /* NSJSONSerialization+ZLCustom.h in Headers */,
+				EFB3048DEB13EE8CC59BC3DA3A123F71 /* NSString+ZLCustom.h in Headers */,
+				051219D8F301476F1AFE5B898A658311 /* UIColor+ZLCustom.h in Headers */,
+				EB65538ACC6AA4F870107411EB8A0A7B /* UIView+ZLCustom.h in Headers */,
+				33BCC8B9D701880AD14FB50FA635FD32 /* ZLButton.h in Headers */,
+				80C88807629C4293E2E33F620B2ACD43 /* ZLCollectionView.h in Headers */,
+				20427D6447CB3FA6A8908F3515DA4886 /* ZLImage.h in Headers */,
+				1F3602B90E377893250FB2724FB77F69 /* ZLImageView.h in Headers */,
+				9D59F5F9F23D2FF6FFE7E93AE95ED9A7 /* ZLImaginaryLine.h in Headers */,
+				61D5A99D94DFF3373990601F400ED9D0 /* ZLKeyboardMoneyField.h in Headers */,
+				A0D59EEEC180BA242047AFFCDDE2C7E7 /* ZLKitHeader.h in Headers */,
+				4595C67340A5D6E24F5F7F72A5C74257 /* ZLLabel.h in Headers */,
+				3B6301347F7D819C1171C4E33B1A9D5B /* ZLMessageTextView.h in Headers */,
+				5076FBDB101706671C16A041AAA3EF3B /* ZLScrollView.h in Headers */,
+				2A7A049DDA803EA7F9970DACB75602BA /* ZLStaticPage.h in Headers */,
+				29D5CFE2412182E92A1C5E4D8ADC73D5 /* ZLTableView.h in Headers */,
+				A5004A7C98930727D075784E2CBFDA8F /* ZLTemplateManger.h in Headers */,
+				BAE40AFB29BB388EC6649E00BC287B60 /* ZLTextField.h in Headers */,
+				9454013817ACB36D244C1D77A520E872 /* ZLTextView.h in Headers */,
+				B45DDC9807D663D3B61B9E5492F7B49A /* ZLTimerManager.h in Headers */,
+				4ED4918D9E145626613FB2F8D835C8B0 /* ZLWarnView.h in Headers */,
+				FBAD400B90704651CD3BF01C94B01889 /* ZLWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF5B1FEDCACA06A1B1E853F1E19FF3F0 /* Headers */ = {
+		B25CD9B57F6172398706481A03ECF313 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E467D167063B11B88946808B813D8D35 /* NSJSONSerialization+ZLCustom.h in Headers */,
-				563F9A4DF8A6412B6540EF8C3705BA99 /* NSString+ZLCustom.h in Headers */,
-				A1F75247218E43745BA65FA57F5B0300 /* UIColor+ZLCustom.h in Headers */,
-				7512C651C55793418787D6D101D23E3D /* UIView+ZLCustom.h in Headers */,
-				86443FC45343553D7FFA52F0764DBC86 /* ZLButton.h in Headers */,
-				0A7DA069A72247627EC84D70E2850B8E /* ZLCollectionView.h in Headers */,
-				B5DDBCF52A9CBF538B17A27954C60442 /* ZLImage.h in Headers */,
-				7A23BEEDB9077D198D7D81963DB4F169 /* ZLImageView.h in Headers */,
-				17783280B19730B82BA181806B4AF79A /* ZLImaginaryLine.h in Headers */,
-				7B3B2C0B3D6126015B4D3DF984603010 /* ZLKeyboardMoneyField.h in Headers */,
-				A0162806B922234F67289A4BA61492D3 /* ZLKitHeader.h in Headers */,
-				1231FE358BEA23BAC577841B85D1ABA3 /* ZLLabel.h in Headers */,
-				B60C1ABB95497847FCED867DA272FD08 /* ZLMessageTextView.h in Headers */,
-				8FB17C6D7A1B7CC686699F1F5AD85922 /* ZLScrollView.h in Headers */,
-				1DB283F0DD3436A554EF27C7C9F92214 /* ZLStaticPage.h in Headers */,
-				8FF54A823AF52774A6536AFC487C25D8 /* ZLTableView.h in Headers */,
-				1B4795FE2CB083DC658B3CF6585A3F3B /* ZLTemplateManger.h in Headers */,
-				9F70329FBBE81AC93DB9F5E42A7E891F /* ZLTextField.h in Headers */,
-				0CFE5F68CFEB8160D3520146CCE3064D /* ZLTextView.h in Headers */,
-				9C306BFCFB687A42CABF13BAF5A274D2 /* ZLTimerManager.h in Headers */,
-				399C5286E689244695A847FC4416AA2E /* ZLWarnView.h in Headers */,
-				7109259C748DCAC2E097ACBDA551B20F /* ZLWebView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE91476FFEA2C3B3AB024E94672BCFF2 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
-			buildPhases = (
-				1719BD8C8C5FB63E8E3A195F3CF29331 /* Headers */,
-				0013C2F4C1357617646EA156AF532732 /* Sources */,
-				74CA1619F24B79CC712A86A70DED135F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AFNetworking;
-			productName = AFNetworking;
-			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85F81E41FCC89DC8FD637C98DFD35083 /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */;
-			buildPhases = (
-				1E29D01F0D68A3554EC1E4A5BAE08E01 /* Sources */,
-				5581656A4D905253CBF6301C5D79AC41 /* Frameworks */,
-				78415752BC25C957CA6C3B81DA70C589 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ZLNavigationBar-ZLNavigationBar";
-			productName = "ZLNavigationBar-ZLNavigationBar";
-			productReference = 28313E91931C16DA6D7077DA71B8E8C4 /* ZLNavigationBar.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		58B789A71DC3929A145F33799E06FC4A /* ZLKit-ZLKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82E7D58304ED251D747974E1663E20E6 /* Build configuration list for PBXNativeTarget "ZLKit-ZLKit" */;
+			buildConfigurationList = 94E65A31EA6AA124A1D8B9B3F9D05FCC /* Build configuration list for PBXNativeTarget "ZLKit-ZLKit" */;
 			buildPhases = (
-				67CC948807A9381377D0C3F8C1B943DF /* Sources */,
-				F2D234ED57CCCEEAD6A9A5F7AB15165E /* Frameworks */,
-				62B2A1193ED0C5913F989BBDE283A6BC /* Resources */,
+				BE548EAA995A6C36B8A80460F2AD6EF0 /* Sources */,
+				D9EC7DAABDA3E91CE5AA95629AC723C2 /* Frameworks */,
+				4D6DDD0DF6CFBA8368BDF27EA316FCDC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -950,19 +517,16 @@
 		};
 		8CD2B3E86F854CFF87C5765C0E9DD2F4 /* Pods-ZLKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD413FC0C4BD5ED5923EA38DB7FA7DFF /* Build configuration list for PBXNativeTarget "Pods-ZLKit_Example" */;
+			buildConfigurationList = DE176AE53091988E5F729F583B279AFA /* Build configuration list for PBXNativeTarget "Pods-ZLKit_Example" */;
 			buildPhases = (
-				A2F7F3A2AE948BBBBE0833DC6FC2B7C5 /* Headers */,
-				0A548B4C0BB8C9F72E81287053C214BF /* Sources */,
-				1B0025AF47F2899C046C73C6691B620F /* Frameworks */,
+				B25CD9B57F6172398706481A03ECF313 /* Headers */,
+				8D9D7424F1FA3D9005A15EA6B0955172 /* Sources */,
+				027923F464B0FE19C662F607FCB9AB10 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				768E4C02EB7CDBE720E905991B9DA7D0 /* PBXTargetDependency */,
-				EB60C5B98330BEC045C65970022A2509 /* PBXTargetDependency */,
-				42D55FBD225490860F47F01E91427BA5 /* PBXTargetDependency */,
-				257029FB028453845558BAEABF0CD465 /* PBXTargetDependency */,
+				70832FF13B584B17B4B41B16CF62AFE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLKit_Example";
 			productName = "Pods-ZLKit_Example";
@@ -971,18 +535,16 @@
 		};
 		ACD2088D4602FBCAF0F80875CC03E168 /* ZLKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2931A5504F240C10E568860FBB89B481 /* Build configuration list for PBXNativeTarget "ZLKit" */;
+			buildConfigurationList = 9A5B057F5CD6101D4A5E2138A1428786 /* Build configuration list for PBXNativeTarget "ZLKit" */;
 			buildPhases = (
-				CF5B1FEDCACA06A1B1E853F1E19FF3F0 /* Headers */,
-				0893B954F36EC47F3C43E1507DE074E5 /* Sources */,
-				CFA5081D421A68996B6E6896398E3E7B /* Frameworks */,
+				4C10EE96F794FFD7B27795804504FBCC /* Headers */,
+				2192BA20A824490FF38CA4A944EE9838 /* Sources */,
+				66F75455AFCCEFBD8ACAFD03AA94C83E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D55B9FD35C60409018D6880686AC05E2 /* PBXTargetDependency */,
-				58F3867B395E92FB2F8DAB82294571CE /* PBXTargetDependency */,
-				92EA010C935C2AA725241BA44AA606E7 /* PBXTargetDependency */,
+				6CC2CB38F896EC194D12C020B354FBEA /* PBXTargetDependency */,
 			);
 			name = ZLKit;
 			productName = ZLKit;
@@ -1007,131 +569,79 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = ABA893C709409367EB9739027F575CBE /* Products */;
+			productRefGroup = 4314B884BEFDF33846B6C524ED753DDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
 				8CD2B3E86F854CFF87C5765C0E9DD2F4 /* Pods-ZLKit_Example */,
 				5E2D774FD684DEAA302DA7CC4FF2F028 /* Pods-ZLKit_Tests */,
-				5C5034840FC1CEBF1DFA2AE4E0EDE7C6 /* ZLHTTPSessionManager */,
 				ACD2088D4602FBCAF0F80875CC03E168 /* ZLKit */,
 				58B789A71DC3929A145F33799E06FC4A /* ZLKit-ZLKit */,
-				A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */,
-				189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		62B2A1193ED0C5913F989BBDE283A6BC /* Resources */ = {
+		4D6DDD0DF6CFBA8368BDF27EA316FCDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE983C69D3F659D9362FA12A2B69F866 /* ZLKit_ Close Keyboard@2x.png in Resources */,
-				A098A6F45A8D805D8B503E4E1E695AEA /* ZLKit_ Close Keyboard@3x.png in Resources */,
-				485A6046A191E209D5F944F5B100E495 /* ZLKit_Delete@2x.png in Resources */,
-				56C51A953B3EF1D47BE393FDF8EAEDF9 /* ZLKit_Delete@3x.png in Resources */,
-				CAA2573C8E9B65D8917FD83CAC2D32AA /* ZLKit_Error@2x.png in Resources */,
-				A7323DA9FBD05DCE7B03E3DCEC789EF7 /* ZLKit_Error@3x.png in Resources */,
-				C6B80BC4820D69ED9DA57AF9F66340BC /* ZLKit_NoNetwork@2x.png in Resources */,
-				93EE68D65E590047E57E088602CBB3C3 /* ZLKit_NoNetwork@3x.png in Resources */,
-				7F74ECB0EC1DAD5CCE8CA28890E92BC7 /* ZLKit_NullData@2x.png in Resources */,
-				AA62196C5A23717A0EE55F2372782FB5 /* ZLKit_NullData@3x.png in Resources */,
-				C2D616B56B59CB9FD0EF8A29F277769E /* ZLKit_ServerFailure@2x.png in Resources */,
-				AC2B480AB4756227ED879D52A8896CF9 /* ZLKit_ServerFailure@3x.png in Resources */,
-				6DE1C92C03628554AC7D72319222C7E3 /* ZLKit_Timeout@2x.png in Resources */,
-				A7EEB7260701C76DA8D93A927BF20CC1 /* ZLKit_Timeout@3x.png in Resources */,
-				181D258A6CCAB99AE08A018D2CE90E07 /* ZLKit_Warning@2x.png in Resources */,
-				A3B1155204D8C2F735B346E1DBE69319 /* ZLKit_Warning@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78415752BC25C957CA6C3B81DA70C589 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				787F68D20C138BD976E13CD4440F2BE5 /* ZLNavigationBar_GoBack@2x.png in Resources */,
-				E9286F013194D0B470CA6D74BF5450AD /* ZLNavigationBar_GoBack@3x.png in Resources */,
-				E1B82F3B62FDBCB4C7EAACB31B1613EC /* ZLNavigationBar_search@2x.png in Resources */,
-				6A238414E65C76A8E1063D992261DB1C /* ZLNavigationBar_search@3x.png in Resources */,
+				8A4256FBA472F32F401A4EB1B471EA04 /* ZLKit_ Close Keyboard@2x.png in Resources */,
+				646433793548641CFD14E0F1415E81B9 /* ZLKit_ Close Keyboard@3x.png in Resources */,
+				471994CA03605F46D9BD60350319D8D4 /* ZLKit_Delete@2x.png in Resources */,
+				94441C9064A163D1CDF1D30754A2D72A /* ZLKit_Delete@3x.png in Resources */,
+				62D26354431858E97DDE912AEAA67889 /* ZLKit_Error@2x.png in Resources */,
+				788D3D8A437B59A0F91E0A397AA2A64F /* ZLKit_Error@3x.png in Resources */,
+				56DF0E220C3EB7449A3BE0E58B761947 /* ZLKit_NoNetwork@2x.png in Resources */,
+				7D94EDC08E0899AAC30FA6E56398E57A /* ZLKit_NoNetwork@3x.png in Resources */,
+				AB1FF5FC781FE07E6858CC29AF75C6DE /* ZLKit_NullData@2x.png in Resources */,
+				FCCC87A727B716D42D6E779A38F94F30 /* ZLKit_NullData@3x.png in Resources */,
+				AE11590F040EBB48CF71AADBC0B50059 /* ZLKit_ServerFailure@2x.png in Resources */,
+				B3DDD9F8A901A9031C688BD2F8BD8105 /* ZLKit_ServerFailure@3x.png in Resources */,
+				C81E8C554D48A3AFD0400577AC57A3D3 /* ZLKit_Timeout@2x.png in Resources */,
+				68243D1497874B2DB4BC30C5B2AE644D /* ZLKit_Timeout@3x.png in Resources */,
+				58BB8A960FAA6F89BD39AA4C15A24973 /* ZLKit_Warning@2x.png in Resources */,
+				261AE6A8282F343AA5506C2820B3F894 /* ZLKit_Warning@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0013C2F4C1357617646EA156AF532732 /* Sources */ = {
+		2192BA20A824490FF38CA4A944EE9838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */,
-				8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */,
-				10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */,
-				1F66F73B61BEA115076A9CF7DD463832 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */,
-				3801A443834985F278FE479B54319B4F /* AFNetworkReachabilityManager.m in Sources */,
-				1EA1235398DAC98440B2EFBE43839FD1 /* AFSecurityPolicy.m in Sources */,
-				72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */,
-				2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */,
-				E7351E56F4C49CE1F9559D5C69ECC1ED /* AFURLSessionManager.m in Sources */,
-				551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */,
-				40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */,
-				894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */,
-				304FB2F3CB19F5C44D812D90AA2F1121 /* UIRefreshControl+AFNetworking.m in Sources */,
-				5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */,
+				AC81286B583370356E856F5EFD7D7259 /* NSJSONSerialization+ZLCustom.m in Sources */,
+				CFE677098310A459A7EE63048556FD32 /* NSString+ZLCustom.m in Sources */,
+				D5D70A13DF5DB2C7DA341390C41EDFB0 /* UIColor+ZLCustom.m in Sources */,
+				80B6AC6AB16CCED332CF2D033C075605 /* UIView+ZLCustom.m in Sources */,
+				CCB9C79B2F0721858DA5DAF469D9153E /* ZLButton.m in Sources */,
+				59AC92E553862596564783200DEF7C50 /* ZLCollectionView.m in Sources */,
+				CC494D182FF065BE642B09CD64AF204A /* ZLImage.m in Sources */,
+				575EFB4DC00B73F28B118F83B9153A91 /* ZLImageView.m in Sources */,
+				A7C84C16649A7A4C2EBA43C462F8DC5C /* ZLImaginaryLine.m in Sources */,
+				9F8BDE57BDE95747B48161A2AAEA4D60 /* ZLKeyboardMoneyField.m in Sources */,
+				18CF6F9C918E589590F7FA67DA1F3771 /* ZLKit-dummy.m in Sources */,
+				52375B944FAB5B16DCFF5B8E91911D62 /* ZLLabel.m in Sources */,
+				37A31F1073CF928A8BC83C3B2344DA74 /* ZLMessageTextView.m in Sources */,
+				84DC23FCDDC2F9B1CC2EE13D12151559 /* ZLScrollView.m in Sources */,
+				0C5A573FCDF5315B0D6B976E9DC2E647 /* ZLStaticPage.m in Sources */,
+				21439F8B15ACD7C744A7EE5E2375AE8D /* ZLTableView.m in Sources */,
+				4053B67DB0A41AECC206CDCC77781A9A /* ZLTemplateManger.m in Sources */,
+				B8393E6EB5CE4B7991021C9F79AF24A6 /* ZLTextField.m in Sources */,
+				FEF6A670FB75C79330ACDA3F6C928728 /* ZLTextView.m in Sources */,
+				EAFA523AFA55E381B1D1A77032B75B78 /* ZLTimerManager.m in Sources */,
+				A377EF2A44A01DCC6D2DD2CA7798711B /* ZLWarnView.m in Sources */,
+				ADCB39270E0B31789215993246AB1E0C /* ZLWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0893B954F36EC47F3C43E1507DE074E5 /* Sources */ = {
+		8D9D7424F1FA3D9005A15EA6B0955172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141B25DFCDBAD343ABD5B52B5FB3EBAE /* NSJSONSerialization+ZLCustom.m in Sources */,
-				5F3F7484EE2F5B0C09E3CDA731032B92 /* NSString+ZLCustom.m in Sources */,
-				195223264AFE8CE068ED59C1F56D3418 /* UIColor+ZLCustom.m in Sources */,
-				AB99DD50A79F78987DA4E8B8A8914196 /* UIView+ZLCustom.m in Sources */,
-				F6F42512E20328FDE2395807D6E9363E /* ZLButton.m in Sources */,
-				F3B865AEEFEBC3933F41A12F4012C4D7 /* ZLCollectionView.m in Sources */,
-				39FB6F418DFC3E5B7003A616B657F874 /* ZLImage.m in Sources */,
-				4D6C549F03F5AC3E00E51766F8E3703B /* ZLImageView.m in Sources */,
-				1AAD485835BC553FB3AE49900687D8F6 /* ZLImaginaryLine.m in Sources */,
-				8C8BBFCDC70206B314CBF586731BC8E3 /* ZLKeyboardMoneyField.m in Sources */,
-				150D182ED4BD8A712A779509F85FED91 /* ZLKit-dummy.m in Sources */,
-				6E445694552A3348AE3F845350DF8A14 /* ZLLabel.m in Sources */,
-				D5131E34FEDC093AE7FD352DE4F41A4F /* ZLMessageTextView.m in Sources */,
-				2B8EF244B7F5E7B7B333EFC8D3A85120 /* ZLScrollView.m in Sources */,
-				62248811C111C17D3913026AFDE904E2 /* ZLStaticPage.m in Sources */,
-				80B591ADEE664D46FE8392E12D7A8BFA /* ZLTableView.m in Sources */,
-				ABC6EC96AFB402119322421E4AA62F60 /* ZLTemplateManger.m in Sources */,
-				896695FB88E12851A466BC3F1140EE4F /* ZLTextField.m in Sources */,
-				B43BD9389A892B8123ECEFC3E55028BD /* ZLTextView.m in Sources */,
-				F2DB8E02AD680187F50B261583F3B7B6 /* ZLTimerManager.m in Sources */,
-				F050D0C84E5634415EF3363CB5831EF2 /* ZLWarnView.m in Sources */,
-				605E6120C9105C57B698606F81E93AEA /* ZLWebView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0A548B4C0BB8C9F72E81287053C214BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7911C5C7C34BB028530FBFB75CECCF42 /* Pods-ZLKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E29D01F0D68A3554EC1E4A5BAE08E01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67CC948807A9381377D0C3F8C1B943DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DE5068994937F86928463DEB97E3AE2D /* Pods-ZLKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1140,6 +650,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				696D3FB95B3D97946933F4616F01CE45 /* Pods-ZLKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE548EAA995A6C36B8A80460F2AD6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1152,166 +669,22 @@
 			target = 8CD2B3E86F854CFF87C5765C0E9DD2F4 /* Pods-ZLKit_Example */;
 			targetProxy = EBE27A1DAF569AD8B984D2F7AE5D1A06 /* PBXContainerItemProxy */;
 		};
-		257029FB028453845558BAEABF0CD465 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLNavigationBar;
-			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
-			targetProxy = F79EFD1C4BF84C5A2EC3FBB84B3DE15A /* PBXContainerItemProxy */;
-		};
-		3E294479127FE2332551EF592B5E59D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZLNavigationBar-ZLNavigationBar";
-			target = 189101C072DDEA7FEB1B8EAF31D4ECCA /* ZLNavigationBar-ZLNavigationBar */;
-			targetProxy = 1C09B9D93D08BB76A44E7788450D81C9 /* PBXContainerItemProxy */;
-		};
-		42D55FBD225490860F47F01E91427BA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLKit;
-			target = ACD2088D4602FBCAF0F80875CC03E168 /* ZLKit */;
-			targetProxy = 4220840ED10F127F687122B779A93808 /* PBXContainerItemProxy */;
-		};
-		58F3867B395E92FB2F8DAB82294571CE /* PBXTargetDependency */ = {
+		6CC2CB38F896EC194D12C020B354FBEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZLKit-ZLKit";
 			target = 58B789A71DC3929A145F33799E06FC4A /* ZLKit-ZLKit */;
-			targetProxy = B9601C42209DD522E5FCEA4B12FEB182 /* PBXContainerItemProxy */;
+			targetProxy = 9FD8AF7FB95AE22B9B0749C2FBC50E4A /* PBXContainerItemProxy */;
 		};
-		768E4C02EB7CDBE720E905991B9DA7D0 /* PBXTargetDependency */ = {
+		70832FF13B584B17B4B41B16CF62AFE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 580A56CBCFE617E6532D6B8B2BE450C3 /* PBXContainerItemProxy */;
-		};
-		88F2F1761B680C8686CDC293AB1AE35E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = DBA2BA642E6FAA1D9F76A23D656E2EAA /* PBXContainerItemProxy */;
-		};
-		92EA010C935C2AA725241BA44AA606E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLNavigationBar;
-			target = A53BFF9B0EA49767C9AEF0BC19AA3DCC /* ZLNavigationBar */;
-			targetProxy = D5AACF115A3B8FFCAD2A1F3BE338CAC0 /* PBXContainerItemProxy */;
-		};
-		D55B9FD35C60409018D6880686AC05E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLHTTPSessionManager;
-			target = 5C5034840FC1CEBF1DFA2AE4E0EDE7C6 /* ZLHTTPSessionManager */;
-			targetProxy = 0E99A6FE97781D80F5355542080A3F57 /* PBXContainerItemProxy */;
-		};
-		EB60C5B98330BEC045C65970022A2509 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ZLHTTPSessionManager;
-			target = 5C5034840FC1CEBF1DFA2AE4E0EDE7C6 /* ZLHTTPSessionManager */;
-			targetProxy = 26789EFBA53722C7636554F44EA785A2 /* PBXContainerItemProxy */;
+			name = ZLKit;
+			target = ACD2088D4602FBCAF0F80875CC03E168 /* ZLKit */;
+			targetProxy = 30013FD348839482636E6F141EF299F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04B0E0B2AE88D316F18821BFD3C65037 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A83DA6391EC69297CD7D5ED5A9D31F47 /* ZLHTTPSessionManager.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		05F1D791E522CC83264AB8FB691C5C8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A78197F69565903E15AA42196FF1490 /* AFNetworking.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0C251906794BD8D9BBE38A2AA38F02FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F41CCBE7B7DE7AC8D686BE531B0052CD /* ZLKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLKit";
-				IBSC_MODULE = ZLKit;
-				INFOPLIST_FILE = "Target Support Files/ZLKit/ResourceBundle-ZLKit-ZLKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZLKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1207D65E3D31457BCDB06BC0BDEEB54A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F41CCBE7B7DE7AC8D686BE531B0052CD /* ZLKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLKit/ZLKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZLKit;
-				PRODUCT_NAME = ZLKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1BB8B778046A97F42D5B5BB1B907FEC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1DDC6BFC6D6D9155FED009C10457D60 /* AFNetworking.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2E5A262F51B25B802D18D8168A824B24 /* Debug */ = {
+		0BCAB2957F96788A43ABC4CAD8C0007A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1441B2D04063E4A202C7C1CF3EBABB8 /* ZLKit.debug.xcconfig */;
 			buildSettings = {
@@ -1327,6 +700,23 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		135BF7B9B5BEBC0D1C53A182F123358B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41CCBE7B7DE7AC8D686BE531B0052CD /* ZLKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLKit";
+				IBSC_MODULE = ZLKit;
+				INFOPLIST_FILE = "Target Support Files/ZLKit/ResourceBundle-ZLKit-ZLKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZLKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		32A4C7F3A93C6885C274ABE55DEADAE8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1345,50 +735,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		357E1EF0CF14FA5F7AA114BD9FD4F851 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12399C77049C792A4368210A85557A00 /* ZLNavigationBar.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
-				IBSC_MODULE = ZLNavigationBar;
-				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZLNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		450400983627133A07C1B6A71D490685 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12399C77049C792A4368210A85557A00 /* ZLNavigationBar.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		47C7EBD96E68547DF17CC6BAC2DCA04F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5708893CA1B92F696BA9554612D3716A /* ZLNavigationBar.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1454,19 +800,6 @@
 			};
 			name = Release;
 		};
-		53A4ADB20E950D120D61B8C006CAF47B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 106E31A5B469932B11584C0E346D680C /* ZLHTTPSessionManager.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		5BD413486395ABF469EFBB8143C9C42A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 011F3BBF1C96E0F0D56A9D561E3A443E /* Pods-ZLKit_Tests.debug.xcconfig */;
@@ -1488,7 +821,7 @@
 			};
 			name = Debug;
 		};
-		7ADA14FE284A230CAB7CE1D69CED3AA9 /* Debug */ = {
+		704C716A03C7D399A617C2AECC639A11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3E664A5F026F3C683993064CE944F6C /* Pods-ZLKit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1573,24 +906,7 @@
 			};
 			name = Debug;
 		};
-		94D3F667AB26291D01503F6D60F1517C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5708893CA1B92F696BA9554612D3716A /* ZLNavigationBar.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZLNavigationBar";
-				IBSC_MODULE = ZLNavigationBar;
-				INFOPLIST_FILE = "Target Support Files/ZLNavigationBar/ResourceBundle-ZLNavigationBar-ZLNavigationBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZLNavigationBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D9C817A8CEEEBBAB8604D360BC645CC7 /* Release */ = {
+		9C57AE42542D5AF0674930FD590683E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9ABB5F39ACE2C4C05A3DA406AF63E2A2 /* Pods-ZLKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -1612,7 +928,7 @@
 			};
 			name = Release;
 		};
-		E74AA6D29E747475C15BC55FC5FB19F1 /* Debug */ = {
+		E4DBF2C3A9D56CCD86932C43A3021113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1441B2D04063E4A202C7C1CF3EBABB8 /* ZLKit.debug.xcconfig */;
 			buildSettings = {
@@ -1635,18 +951,33 @@
 			};
 			name = Debug;
 		};
+		E92245DA419E91A00E77B806C89AB8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41CCBE7B7DE7AC8D686BE531B0052CD /* ZLKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLKit/ZLKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZLKit;
+				PRODUCT_NAME = ZLKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2931A5504F240C10E568860FBB89B481 /* Build configuration list for PBXNativeTarget "ZLKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E74AA6D29E747475C15BC55FC5FB19F1 /* Debug */,
-				1207D65E3D31457BCDB06BC0BDEEB54A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1656,47 +987,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D20B20CC80F075B37D65C4BC609E5B3 /* Build configuration list for PBXAggregateTarget "ZLNavigationBar" */ = {
+		94E65A31EA6AA124A1D8B9B3F9D05FCC /* Build configuration list for PBXNativeTarget "ZLKit-ZLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				450400983627133A07C1B6A71D490685 /* Debug */,
-				47C7EBD96E68547DF17CC6BAC2DCA04F /* Release */,
+				0BCAB2957F96788A43ABC4CAD8C0007A /* Debug */,
+				135BF7B9B5BEBC0D1C53A182F123358B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82E7D58304ED251D747974E1663E20E6 /* Build configuration list for PBXNativeTarget "ZLKit-ZLKit" */ = {
+		9A5B057F5CD6101D4A5E2138A1428786 /* Build configuration list for PBXNativeTarget "ZLKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E5A262F51B25B802D18D8168A824B24 /* Debug */,
-				0C251906794BD8D9BBE38A2AA38F02FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		830209CBB3FCDE3AB4F67D050A863D76 /* Build configuration list for PBXAggregateTarget "ZLHTTPSessionManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53A4ADB20E950D120D61B8C006CAF47B /* Debug */,
-				04B0E0B2AE88D316F18821BFD3C65037 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		85F81E41FCC89DC8FD637C98DFD35083 /* Build configuration list for PBXNativeTarget "ZLNavigationBar-ZLNavigationBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				357E1EF0CF14FA5F7AA114BD9FD4F851 /* Debug */,
-				94D3F667AB26291D01503F6D60F1517C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD413FC0C4BD5ED5923EA38DB7FA7DFF /* Build configuration list for PBXNativeTarget "Pods-ZLKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7ADA14FE284A230CAB7CE1D69CED3AA9 /* Debug */,
-				D9C817A8CEEEBBAB8604D360BC645CC7 /* Release */,
+				E4DBF2C3A9D56CCD86932C43A3021113 /* Debug */,
+				E92245DA419E91A00E77B806C89AB8E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1710,11 +1014,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE91476FFEA2C3B3AB024E94672BCFF2 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+		DE176AE53091988E5F729F583B279AFA /* Build configuration list for PBXNativeTarget "Pods-ZLKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F1D791E522CC83264AB8FB691C5C8B /* Debug */,
-				1BB8B778046A97F42D5B5BB1B907FEC2 /* Release */,
+				704C716A03C7D399A617C2AECC639A11 /* Debug */,
+				9C57AE42542D5AF0674930FD590683E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
