@@ -25,7 +25,7 @@
     
     CGFloat maxWidth = UIScreen.mainScreen.bounds.size.width - 130.0;
     CGSize size = [message boundingRectWithSize:CGSizeMake(maxWidth,MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine | NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14.0]} context:nil].size;
-    CGFloat width = (size.width > maxWidth - 30.0 ? maxWidth : size.width) + 30.0;
+    CGFloat width = (size.width > maxWidth ? maxWidth : size.width) + 30.0;
     CGFloat height = size.height + 20.0;
     
     if (blockingOperation) {
