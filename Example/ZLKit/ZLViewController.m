@@ -31,7 +31,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSLog(@"调用");
-    [ZLWarnView showErrorMessageOnView:nil Servicer:NO Message:@"错误信息"];
+    [ZLMessageTextView showMessage:@"测试" BackgroundColor:nil Blocking:YES SuperView:nil];
 }
 
 @end

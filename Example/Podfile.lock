@@ -1,5 +1,5 @@
 PODS:
-  - ZLKit (3.3.5)
+  - ZLKit (3.3.6)
 
 DEPENDENCIES:
   - ZLKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZLKit: c97b117777af7179ff32bbda112a3b899be0a66b
+  ZLKit: 3bd5bcc07b942046f6fa53facb52f08ff912784d
 
 PODFILE CHECKSUM: 3bda7c641fcf5f7b9ae127e0f366a5cc60222019
 
